@@ -449,7 +449,7 @@ body{
   margin-bottom: 5px;
   color: #fff;
 }
-.catalog__card-hits .news{
+.catalog__card-hits .catalog__news{
   background: #e88854;
 }
 .catalog__card-hits .hits{
