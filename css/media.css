@@ -1,0 +1,27 @@
+@media(min-width: 1600px){
+  .container{
+    max-width: 1460px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}
+
+@media(max-width: 1600px){
+  .news__swiper{
+    padding: 70px 30px;
+    max-width: 953px;
+    width: 100%;
+    height: 380px;
+    background: #a87cd5;
+  }
+}
+@media(max-width: 1400px){
+  .news__swiper{
+    padding: 70px 30px;
+    max-width: 833px;
+    width: 100%;
+    height: 380px;
+    background: #a87cd5;
+  }
+}
