@@ -22,8 +22,14 @@
   <header>
     <div class="container">
       <div class="header__inner">
+        <div class="mob__login">
+          <img src="img/login__mob.png" alt="">
+        </div>
         <div class="header__logo">
           <img src="img/logo.png" alt="">
+        </div>
+        <div class="mob__phone">
+          <img src="img/phone__mob.png" alt="">
         </div>
         <div class="header__phone">
           <img src="img/phone.png" alt="">
@@ -70,13 +76,32 @@
         </div>
       </div>
     </div>
+    <div class="header__topmob">
+      <div class="container">
+        <div class="header__topmob-inner">
+          <div class="header__money-inner mob">
+            <img src="img/money.png" alt="">
+            <div class="header__money-item">
+              <p>USD (28,15 грн.)</p>
+            </div>
+          </div>
+          <div class="header__rus mob">
+            <a class="header__btn" href="#">РУС</a>
+            <div class="header__dopdowns">
+              <a href="#">ENG</a>
+              <a href="#">УКР</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
     <div class="menu">
       <div class="container">
         <nav class="menu__nav">
-          <ul>
+          <ul class="menu__list">
             <li class="menu__item active">
               <a class="menu__link" href="#">ПАРФЮМЕРИЯ</a>
               <div class="menu__link-dropdown">
@@ -204,6 +229,7 @@
               <a class="menu__link" href="#">КОНТАКТЫ</a>
             </li>
           </ul>
+          <div class="menu__mob"></div>
           <div class="menu__search">
             <div class="search">
               <input type="text" placeholder="Духи E12">
@@ -213,6 +239,7 @@
             </div>
             <div class="cart">
               <a href="#"><img src="img/cart.png" alt=""></a>
+              <span>2 555 грн</span>
             </div>
           </div>
         </nav>
@@ -221,27 +248,25 @@
     <div class="menu__swiper">
       <div class="swiper-container swiper1">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="img/bg__swiper.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="img/bg__swiper.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="img/bg__swiper.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="img/bg__swiper.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="img/bg__swiper.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper__img" src="img/bg__swiper.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper__img" src="img/bg__swiper.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper__img" src="img/bg__swiper.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper__img" src="img/bg__swiper.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="swiper__img" src="img/bg__swiper.jpg" alt=""></div>
         </div>
         <div class="swiper-pagination swiper-pagination1"></div>
       </div>
     </div>
     <div class="catalog">
       <div class="container">
-        <nav class="catalog__nav">
-          <ul>
-            <li class="catalog__btn active"><a href="#" class="active">НОВИНКИ</a></li>
-            <li class="catalog__btn"><a href="#">Бестселлеры</a></li>
-            <li class="catalog__btn"><a href="#">Акции</a></li>
-          </ul>
-        </nav>
+        <div class="catalog__nav">
+          <a class="catalog__btn catalog__active" href="#">НОВИНКИ</a>
+          <a class="catalog__btn" href="#">Бестселлеры</a>
+          <a class="catalog__btn" href="#">Акции</a>
+        </div>
         <div class="catalog__inner">
           <div class="row">
-            <div class="col-3">
+            <div class="col-xl-3 col-md-6 col-12">
               <div class="catalog__card">
                 <div class="catalog__card-hits">
                   <p class="catalog__news">Новинка</p>
@@ -269,12 +294,41 @@
                       <p>100 мл</p>
                       <p>105.76 грн</p>
                     </div>
-                    <a href="#"><img src="img/cart__card.png" alt=""> КУПИТЬ</a>
+                    <a href="#"><img src="img/cart__block.png" alt=""> КУПИТЬ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__card-mob">
+                <div class="catalog__card-item">
+                  <div class="catalog__card-content">
+                    <img class="catalog__card-img" src="img/card.png" alt="">
+                    <div>
+                      <div class="catalog__card-topname">
+                        <p>духи на разлив</p>
+                      </div>
+                      <div class="catalog__card-name">
+                        <p>CEDAR ESSENCE</p>
+                      </div>
+                      <div class="catalog__card-star">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="catalog__card-info">
+                    <div class="catalog__card-price">
+                      <p>100 мл</p>
+                      <p>105.76 грн</p>
+                    </div>
+                    <div class="catalog__block" href="#"><img src="img/cart__card.png" alt=""></div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-xl-3 col-md-6 col-12">
               <div class="catalog__card">
                 <div class="catalog__card-hits">
                   <p class="catalog__news">Новинка</p>
@@ -299,12 +353,41 @@
                       <p>100 мл</p>
                       <p>105.76 грн</p>
                     </div>
-                    <a href="#"><img src="img/cart__card.png" alt=""> КУПИТЬ</a>
+                    <a href="#"><img src="img/cart__block.png" alt=""> КУПИТЬ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__card-mob">
+                <div class="catalog__card-item">
+                  <div class="catalog__card-content">
+                    <img class="catalog__card-img" src="img/card.png" alt="">
+                    <div>
+                      <div class="catalog__card-topname">
+                        <p>духи на разлив</p>
+                      </div>
+                      <div class="catalog__card-name">
+                        <p>CEDAR ESSENCE</p>
+                      </div>
+                      <div class="catalog__card-star">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="catalog__card-info">
+                    <div class="catalog__card-price">
+                      <p>100 мл</p>
+                      <p>105.76 грн</p>
+                    </div>
+                    <div class="catalog__block" href="#"><img src="img/cart__card.png" alt=""></div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-xl-3 col-md-6 col-12">
               <div class="catalog__card">
                 <div class="catalog__card-hits">
                   <p class="catalog__news">Новинка</p>
@@ -329,12 +412,41 @@
                       <p>100 мл</p>
                       <p>105.76 грн</p>
                     </div>
-                    <a href="#"><img src="img/cart__card.png" alt=""> КУПИТЬ</a>
+                    <a href="#"><img src="img/cart__block.png" alt=""> КУПИТЬ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__card-mob">
+                <div class="catalog__card-item">
+                  <div class="catalog__card-content">
+                    <img class="catalog__card-img" src="img/card.png" alt="">
+                    <div>
+                      <div class="catalog__card-topname">
+                        <p>духи на разлив</p>
+                      </div>
+                      <div class="catalog__card-name">
+                        <p>CEDAR ESSENCE</p>
+                      </div>
+                      <div class="catalog__card-star">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="catalog__card-info">
+                    <div class="catalog__card-price">
+                      <p>100 мл</p>
+                      <p>105.76 грн</p>
+                    </div>
+                    <div class="catalog__block" href="#"><img src="img/cart__card.png" alt=""></div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col-xl-3 col-md-6 col-12">
               <div class="catalog__card">
                 <div class="catalog__card-hits">
                   <p class="catalog__news">Новинка</p>
@@ -359,7 +471,36 @@
                       <p>100 мл</p>
                       <p>105.76 грн</p>
                     </div>
-                    <a href="#"><img src="img/cart__card.png" alt=""> КУПИТЬ</a>
+                    <a href="#"><img src="img/cart__block.png" alt=""> КУПИТЬ</a>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__card-mob">
+                <div class="catalog__card-item">
+                  <div class="catalog__card-content">
+                    <img class="catalog__card-img" src="img/card.png" alt="">
+                    <div>
+                      <div class="catalog__card-topname">
+                        <p>духи на разлив</p>
+                      </div>
+                      <div class="catalog__card-name">
+                        <p>CEDAR ESSENCE</p>
+                      </div>
+                      <div class="catalog__card-star">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star__active.png" alt="">
+                        <img src="img/star.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="catalog__card-info">
+                    <div class="catalog__card-price">
+                      <p>100 мл</p>
+                      <p>105.76 грн</p>
+                    </div>
+                    <div class="catalog__block" href="#"><img src="img/cart__card.png" alt=""></div>
                   </div>
                 </div>
               </div>
@@ -450,6 +591,7 @@
                 </div>
               </div>
             </div>
+            <div class="swiper-pagination swiper-pagination2"></div>
             <div class="swiper-button-next swiper-button-next2"></div>
             <div class="swiper-button-prev swiper-button-prev2"></div>
           </div>
@@ -552,6 +694,7 @@
                   </div>
                 </div>
               </div>
+              <div class="swiper-pagination swiper-pagination3"></div>
               <div class="swiper-button-next swiper-button-next3"></div>
               <div class="swiper-button-prev swiper-button-prev3"></div>
             </div>
@@ -612,7 +755,7 @@
   <footer>
     <div class="container">
       <div class="footer__inner">
-        <div class="row">
+        <div class="row footer__contact-none">
           <div class="col-4">
             <div class="footer__contact">
               <div class="footer__contact-header">
@@ -635,10 +778,10 @@
             </div>
           </div>
           <div class="col-3">
-            <div class="footer__contact-header">
+            <div class="footer__contact-header footer__contact-none">
               <p>ДЛЯ БИЗНЕСА</p>
             </div>
-            <div class="footer__bisnes">
+            <div class="footer__bisnes footer__contact-none">
               <a href="#">Набор “Успешный” Набор</a>
               <a href="#">Набор “Привлекательный”</a>
               <a href="#">Набор “Лидерский”</a>
@@ -656,6 +799,28 @@
               <a class="main__btn footer__btn" href="#">смотреть все отзывы</a>
             </div>
           </div>
+        </div>
+        <div class="footer__inner-mob">
+          <div class="footer__contact">
+            <div class="footer__contact-header">
+              <p>Контакты</p>
+            </div>
+            <div class="footer__content">
+              <div class="footer__gps">
+                <img src="img/gps.png" alt="">
+                <p>г.Полтава ул. Европейская, 53</p>
+              </div>
+              <div class="footer__tel">
+                <img src="img/footer__tel.png" alt="">
+                <div class="footer__phone-item">
+                  <a href="tel:380668897979">+38 (066) 889-79-79</a>
+                  <a href="tel:380668897979">+38 (066) 889-79-79</a>
+                  <a href="tel:380668897979">+38 (066) 889-79-79(Viber)</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="main__btn footer__btn" href="#">Подписаться на новинки</a>
         </div>
       </div>
     </div>
