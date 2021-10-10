@@ -544,6 +544,9 @@
   .swiper__img {
     height: 400px;
   }
+  .footer__inner-mob{
+    display: block;
+  }
 }
 @media (max-height: 600px) {
   .swiper__img {

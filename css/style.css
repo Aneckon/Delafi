@@ -674,6 +674,9 @@ body {
 .news__card img {
   width: 100%;
 }
+.footer__inner-mob{
+  display: none;
+}
 .swiper-pagination3{display: none;}
 .news__card-item {
   position: absolute;
