@@ -309,8 +309,8 @@ body {
   right: 10px;
   top: 6px;
   background: url("../img/serch.svg") no-repeat center;
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
 }
 .search input {
   width: 100%;
@@ -635,6 +635,19 @@ body {
 }
 .reviews__inner {
   padding-bottom: 30px;
+  position: relative;
+}
+.reviews__inner::after{
+  content: '“';
+  font-size: 400px;
+  font-weight: bold;
+  position: absolute;
+  color: #fff;
+  top: 10px;
+  left: 0px;
+  width: 180px;
+  height: 140px;
+  z-index: 1;
 }
 .info__header h2{
   font-size: 24px;
@@ -696,9 +709,43 @@ body {
   justify-content: space-between;
   margin: 0 auto;
 }
-.reviews_star img {
-  width: 15px;
-  height: 15px;
+.reviews_star i {
+  font-size: 20px;
+}
+.reviews_star li {
+  display: inline-block;
+}
+.catalog__card-star li{
+  display: inline-block;
+}
+.footer__gps svg{
+  margin-right: 20px;
+  width: 10px;
+  height: 10px;
+  fill: #c69662;
+}
+.catalog__card-star ul li svg{
+  color: #c69662;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+}
+.reviews_star ul li svg {
+  color: #c69662;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+}
+.fa-star::before {
+  content: "\f006";
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .reviews__btn {
   margin-bottom: 30px;
@@ -774,6 +821,7 @@ body {
 }
 .news__slide-header p {
   font-size: 13px;
+  text-transform: uppercase;
   font-weight: bold;
   color: #fff;
 }
@@ -915,7 +963,7 @@ footer {
   align-items: center;
 }
 .footer__gps p {
-  font-size: 14pt;
+  font-size: 14px;
 }
 .footer__gps img {
   width: 10px;
@@ -931,7 +979,7 @@ footer {
   flex-direction: column;
 }
 .footer__phone-item a {
-  font-size: 14pt;
+  font-size: 14px;
   color: #333333;
 }
 .footer__tel img {
