@@ -168,7 +168,7 @@ body {
   justify-content: space-between;
 }
 .menu__nav ul {
-  max-width: 730px;
+  max-width: 830px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -191,9 +191,22 @@ body {
   border-radius: 0 0 10px 10px;
   z-index: 12;
 }
+.header__inner svg{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.header__phone svg{
+  width: 10px;
+  height: 10px;
+  fill: #000;
+}
 .menu__dropdown-left {
   width: 277px;
   padding: 30px;
+}
+.menu__search svg{
+  fill: #fff;
 }
 .menu__dropdown-left img {
   width: 150px;
@@ -295,7 +308,7 @@ body {
   position: absolute;
   right: 10px;
   top: 6px;
-  background: url("../img/serch.png") no-repeat center;
+  background: url("../img/serch.svg") no-repeat center;
   width: 22px;
   height: 22px;
 }
@@ -341,6 +354,7 @@ body {
   font-size: 13px;
   font-weight: bold;
   color: #fff;
+  text-transform: uppercase;
 }
 .menu__link:hover {
   color: #fff;
@@ -420,7 +434,7 @@ body {
   right: 25px;
   width: 40px;
   height: 40px;
-  background-image: url("../img/like.png");
+  background-image: url("../img/like.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 20px 18px;
@@ -468,6 +482,7 @@ body {
 .catalog__card-item {
   margin-top: -7px;
   padding: 30px 20px;
+  margin-bottom: 20px;
   background: #f4f4f4;
   position: relative;
 }
@@ -477,7 +492,7 @@ body {
   width: 60px;
   height: 30px;
   background: #a87cd5;
-  background-image: url("../img/flower.png");
+  background-image: url("../img/flower.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 18px;
@@ -488,6 +503,14 @@ body {
   top: -30px;
   z-index: 2;
   transition: 0.3s;
+}
+.like{
+  width: 18px;
+  height: 20px;
+}
+.like img{
+  width: 100%;
+  height: 100%;
 }
 .catalog__card-item::after {
   content: "Цветочные";
@@ -535,6 +558,10 @@ body {
 .catalog__card-star img {
   cursor: pointer;
 }
+.catalog__card-info a img{
+  width: 18px;
+  height: 18px;
+}
 .catalog__card-info {
   display: flex;
   align-items: center;
@@ -558,8 +585,23 @@ body {
   background: #b18ad9;
   color: #fff;
 }
-.catalog__card-info a img {
+.catalog__card:hover .catalog__card-info svg {
+  fill: #fff;
+}
+.catalog__card-info svg {
   margin-right: 8px;
+  width: 20px;
+  height: 20px;
+  fill: #b18ad9;
+}
+.header__topmob svg{
+  width: 20px;
+  height: 20px;
+  fill: #FFF;
+}
+.cart svg{
+  width: 20px;
+  height: 20px;
 }
 .catalog__card-price p {
   padding-bottom: 10px;
@@ -665,11 +707,11 @@ body {
   margin: 70px 0;
 }
 .news__card {
-  max-width: 270px;
+  max-width: 350px;
   width: 100%;
-  height: 280px;
+  height: 380px;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .news__card img {
   width: 100%;
@@ -716,20 +758,19 @@ body {
 }
 .news__swiper {
   padding: 70px 30px;
-  max-width: 1048px;
+  max-width: 1075px;
   width: 100%;
-  height: 380px;
   background: #a87cd5;
 }
 .news__slide {
   margin: 0 50px;
   padding: 40px;
   text-align: center;
-  height: 160px;
+  height: 360px;
   background: #926eb8;
 }
 .news__slide-header {
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 .news__slide-header p {
   font-size: 13px;
@@ -840,11 +881,6 @@ body {
   height: 75px;
   border-radius: 100%;
   z-index: -1;
-}
-.bonus__item img {
-  max-width: 50px;
-  width: 100%;
-  height: 70px;
 }
 .bonus__item p {
   font-size: 14px;
@@ -1065,7 +1101,6 @@ footer {
 .swiper-slide .swiper__img{
   max-width: 100%;
   width: 100%;
-  height: 650px;
 }
 .swiper-pagination2{
   display: none;
