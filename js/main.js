@@ -39,5 +39,6 @@ $(document).ready(function () {
   $('.menu__mob').click(function () {
     $('.menu__list').toggleClass('open__menu');
     $('.menu__mob').toggleClass('remove__menu');
+    $('body').toggleClass('fixed');
   });
 });
