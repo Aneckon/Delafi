@@ -42,3 +42,62 @@ $(document).ready(function () {
     $('body').toggleClass('fixed');
   });
 });
+
+$(document).ready(function () {
+    $('.n').click(function () {
+      $('.none').hide();
+      $('.new').show();
+    });
+    $('.b').click(function () {
+      $('.none').hide();
+      $('.bestele').show();
+    });
+    $('.a').click(function () {
+      $('.none').hide();
+      $('.action').show();
+    });
+  });
+
+
+(function() {
+
+  'use strict';
+
+  const breakpoint = window.matchMedia( '(min-width:575px)' );
+
+  let mySwiper;
+
+
+  const breakpointChecker = function() {
+
+  
+    if ( breakpoint.matches === true ) {
+
+	  if ( mySwiper !== undefined ) mySwiper.destroy( true, true );
+
+	  return;
+
+      } else if ( breakpoint.matches === false ) {
+
+        return enableSwiper();
+
+      }
+
+  };
+  
+
+  const enableSwiper = function() {
+
+    mySwiper = new Swiper('.swiper4', {
+      navigation: {
+        nextEl: ".swiper-button-next4",
+        prevEl: ".swiper-button-prev4",
+      },
+    });
+
+  };
+
+  breakpoint.addListener(breakpointChecker);
+
+  breakpointChecker();
+})();

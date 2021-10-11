@@ -32,6 +32,11 @@
   }
 }
 @media (max-width: 1400px) {
+  .swiper-slide .swiper__img{
+    max-width: 100%;
+    width: 100%;
+    height: 700px;
+  }
   .news__card{
     margin-bottom: 30px;
     max-width: 250px;
@@ -46,7 +51,6 @@
   }
   .news__slide{
     height: auto;
-    padding: 20px;
   }
   .swiper3{
     height: 160px;
@@ -132,6 +136,11 @@
   }
 }
 @media (max-width: 992px) {
+  .swiper-slide .swiper__img{
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+  }
   .reviews__inner::after{
     font-size: 200px;
     top: 70px;
@@ -428,17 +437,6 @@
   .open__menu {
     display: block !important;
   }
-  /* .swiper-slide img {
-    height: 690px;
-  } */
-  .catalog__active {
-    max-width: 129px;
-    height: 39px;
-  }
-  .catalog__btn {
-    max-width: 129px;
-    height: 39px;
-  }
   .catalog__active {
     font-size: 11px;
   }
@@ -452,11 +450,24 @@
   }
 }
 @media (max-width: 768px) {
+  .catalog__active {
+    max-width: 115px;
+    height: 39px;
+  }
+  .catalog__btn {
+    max-width: 115px;
+    height: 39px;
+  }
+  .news__card-topheader{
+    padding-top: 230px;
+  }
+  .swiper-slide .swiper__img{
+    max-width: 100%;
+    width: 100%;
+    height: 432px;
+  }
   .news__card-header p{
     font-size: 56px;
-  }
-  .reviews__inner::after{
-    display: none;
   }
   .info__header h2{
     font-size: 18px;
@@ -480,14 +491,33 @@
   .news__slide{
     margin: 0;
   }
-  .news__slide{
-    padding: 20px;
-  }
-  /* .swiper-slide img {
-    height: 520px;
-  } */
 }
 @media (max-width: 575px) {
+  .catalog__btn{
+    max-width: 199px;
+    height: 39px;
+    margin: 0 auto;
+  }
+  .catalog__active{
+    display: block;
+    display: flex;
+    background: #e2b56e !important;
+    color: #fff !important;
+    align-items: center;
+    justify-content: center;
+    max-width: 199px;
+    height: 39px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .news__card-topheader{
+    padding-top: 150px;
+  }
+  .reviews__inner::after{
+    font-size: 100px;
+    top: 110px;
+    left: -10px;
+  }
   .news__card-header p{
     font-size: 46px;
   }
@@ -495,10 +525,10 @@
     font-size: 12px;
   }
   .swiper3 {
-    height: 200px;
+    height: 250px;
   }
   .news__swiper{
-    height: 320px;
+    height: 370px;
   }
   .footer__contact-header p{
     font-size: 18px;
@@ -508,13 +538,12 @@
   }
   .catalog__card-mob{
     display: block;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
   }
   .news__slide-content p{
     padding-bottom: 5px;
-  }
-  .catalog__active {
-    max-width: 99px;
-    height: 29px;
   }
   .catalog__card-item{
     background: #fff;
@@ -525,18 +554,17 @@
     padding-right: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
   }
   .swiper-button-next2, .swiper-button-prev2{
     display: none;
   }
   .reviews__slide{
-    padding: 30px;
+    padding: 40px;
     margin: 0;
   }
   .swiper2 {
     width: 100%;
-    height: 230px;
+    height: 265px;
   }
   .reviews_star{
     padding-bottom: 0;
@@ -544,6 +572,7 @@
   .catalog__card-item .catalog__card-img{
     width: 50px;
     height: 50px;
+    margin-right: 20px;
   }
   .reviews__btn{
     margin-top: 20px;
@@ -570,7 +599,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  .catalog__block::after{
+  .catalog__block::before{
     content: "";
     position: relative;
     width: 36px;
@@ -591,10 +620,6 @@
   }
   .catalog__card-hits{
     display: none;
-  }
-  .catalog__btn {
-    max-width: 89px;
-    height: 29px;
   }
   .catalog__active {
     font-size: 10px;
@@ -624,5 +649,70 @@
   }
   .footer__inner-mob{
     display: block;
+  }
+}
+@media (max-width: 475px) {
+  .swiper__img-mob{
+    display: block;
+  }
+  .swiper__img{
+    display: none;
+  }
+  .catalog__card-mob{
+    max-width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .bonus__item::after{
+    width: 75px;
+    height: 75px;
+  }
+  .info__header h2{
+    font-size: 26px;
+  }
+  .bonus__item img{
+    max-width: 65px;
+    height: 75px;
+  }
+  .info__inner{
+    padding-bottom: 40px;
+  }
+  .bonus{
+    margin-bottom: 20px;
+  }
+  .main__btn{
+    font-size: 13px;
+  }
+  .news{
+    margin: 20px 0;
+  }
+  .catalog{
+    padding: 20px 0 40px;
+  }
+  .footer__inner-mob{
+    max-width: 100%;
+  }
+  .reviews{
+    margin-top: 0;
+  }
+  .footer__nav{
+    max-width: 100%;
+  }
+  .news__slide-header{
+    max-width: 145px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer__inner{
+    padding: 40px 0;
+  }
+  .info__text p{
+    font-size: 15px;
+  }
+  .news__card-topheader{
+    padding-top: 110px;
+  }
+  .main__btn{
+    max-width: 100%;
   }
 }
