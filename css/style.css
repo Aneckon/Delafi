@@ -184,7 +184,7 @@ body {
   padding-bottom: 15px;
 }
 .menu__item:hover .menu__link-dropdown {
-  display: flex;
+  display: flex !important;
 }
 .menu__link-dropdown {
   top: 105%;
@@ -737,11 +737,17 @@ body {
 .catalog__card-star li{
   display: inline-block;
 }
+.news__card-header p:last-child{
+  letter-spacing: 3px;
+}
+.footer__bisnes a:hover{
+  color: grey;
+}
 .footer__gps svg{
   margin-right: 20px;
-  width: 10px;
-  height: 10px;
-  fill: #c69662;
+  width: 18px;
+  height: 18px;
+  fill: #e2b56e;
 }
 .catalog__card-star ul li svg{
   color: #c69662;
@@ -1004,8 +1010,8 @@ footer {
   color: #333333;
 }
 .footer__tel img {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   margin-right: 20px;
 }
 .footer__contact-header {
