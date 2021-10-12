@@ -136,6 +136,10 @@
   }
 }
 @media (max-width: 992px) {
+  .news__card{
+    max-width: 160px;
+    height: 160px;
+  }
   .swiper-slide .swiper__img{
     max-width: 100%;
     width: 100%;
@@ -192,11 +196,21 @@
     display: none;
   }
   .news__swiper{
-    max-width: 100%;
+    max-width: 515px;
+    height: 220px;
     margin-bottom: 30px;
+    padding: 10px;
   }
-  .news__card {
-    height: auto;
+  .main__btn{
+    height: 28px;
+    max-width: 200px;
+    font-size: 12px;
+  }
+  .news__card-title{
+    padding-top: 80px;
+  }
+  .news__card-topheader{
+    padding-top: 45px;
   }
   .reviews__slide-content p{
     font-size: 11px;
@@ -450,9 +464,26 @@
   }
 }
 @media (max-width: 768px) {
+  .news__card{
+    height: auto;
+  }
   .catalog__active {
     max-width: 115px;
     height: 39px;
+  }
+  .news__swiper {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+  }
+  .main__btn {
+    height: 38px;
+    max-width: 300px;
+    font-size: 12px;
+  }
+  .swiper3{
+    height: 220px;
   }
   .catalog__btn {
     max-width: 115px;
