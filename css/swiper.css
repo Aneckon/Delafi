@@ -705,6 +705,6 @@ button.swiper-pagination-bullet {
     justify-content: space-between;
   }
   .catalog_swiper{
-    max-width: 200px !important;
+    max-width: 175px !important;
   }
 }

@@ -6,7 +6,6 @@
     padding: 0 10px;
   }
 }
-
 @media (max-width: 1600px) {
   .menu__nav ul {
     max-width: 830px;
@@ -32,6 +31,20 @@
   }
 }
 @media (max-width: 1400px) {
+  .error__logo{
+    max-width: 150px;
+    width: 100%;
+    height: 86px;
+    text-align: center;
+    margin: 30px auto;
+    margin-bottom: 10px;
+  }
+  .error_img{
+    max-width: 400px;
+  }
+  .footer__error svg{
+    margin-bottom: 20px;
+  }
   .swiper-slide .swiper__img{
     max-width: 100%;
     width: 100%;
@@ -132,6 +145,28 @@
   }
 }
 @media (max-width: 992px) {
+  .error__decor{
+    display: none !important;
+  }
+  .error__logo{
+    max-width: 150px;
+    width: 100%;
+    height: 86px;
+    text-align: center;
+    margin: 40px auto;
+  }
+  .error__btn{
+    margin: 40px auto !important;
+  }
+  .footer__error svg{
+    margin-bottom: 20px;
+  }
+  .catalog__card-price p{
+    font-size: 12px;
+  }
+  .catalog__card-btn a{
+    max-width: 100px;
+  }
   .menu__item:hover .menu__link-dropdown {
     display: none;
   }
@@ -163,7 +198,7 @@
   }
   .footer__inner-mob{
     display: block;
-    max-width: 250px;
+    max-width: 260px;
     width: 100%;
     margin: 0 auto;
   }
@@ -210,7 +245,6 @@
     height: 28px;
     max-width: 200px;
     font-size: 12px;
-    
   }
   .news__card-title{
     padding-top: 80px;
@@ -321,19 +355,41 @@
     font-size: 12px;
   }
   .menu__nav ul {
-    padding: 50px;
     display: none;
-    max-width: 100%;
+    padding: 0;
+    max-width: 80%;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     overflow-y: auto;
-    right: 0;
-    margin: 0 auto;
+    height: 100vh;
+    background: #926eb8;
+    z-index: 100;
+  }
+  /* .open__content-top {
+    display: none;
+    padding: 0;
+    max-width: 80%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
     height: 100vh;
     background: #a87bd2;
     z-index: 100;
+  } */
+  .menu__nav ul::before{
+    content: '';
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    z-index: -1;
   }
   .menu__mob {
     position: relative;
@@ -351,8 +407,8 @@
   }
   .remove__menu {
     position: absolute;
-    right: 20px;
-    top: 20px;
+    left: 70%;
+    top: 30px;
     width: 40px;
     height: 40px;
   }
@@ -375,22 +431,34 @@
     border-radius: 0;
   }
   .menu__link-dropdown {
+    margin-top: 30px;
     position: relative;
   }
   .active {
     max-width: 320px;
     width: 100%;
   }
-  .menu__dropdown-right {
-    display: none;
-  }
   .menu__dropdown-left::after {
     display: none;
   }
+  .menu__dropdown-right{
+    max-width: 320px;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0;
+    padding-top: 30px;
+    border-top: 2px solid #a77bd2;
+  }
   .menu__dropdown-left {
-    padding: 30px;
-    width: 320px;
+    max-width: 320px;
+    width: 100%;
+    padding: 0;
+    padding-top: 30px;
+    border-top: 2px solid #a77bd2;
     height: 250px;
+  }
+  .menu__dropdown-item:last-child{
+    height: auto;
   }
   .menu__dropdown-item {
     height: auto;
@@ -398,11 +466,13 @@
   .menu__dropdown-left img {
     width: 50px;
     height: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .menu__item {
-    margin: 0 auto;
-    text-align: center;
+    max-width: 220px;
+    width: 100%;
+    margin: 30px 20px;
+    text-align: left;
   }
   .menu__item::after {
     display: none;
@@ -488,8 +558,11 @@
   .swiper3{
     height: 220px;
   }
+  .catalog__nav{
+    max-width: 100%;
+  }
   .catalog__btn {
-    max-width: 115px;
+    max-width: 145px;
     height: 39px;
   }
   .news__card-topheader{
@@ -527,10 +600,23 @@
   }
 }
 @media (max-width: 575px) {
+  .catalog__btn {
+    max-width: 345px;
+    height: 39px;
+  }
+  .catalog__nav{
+    max-width: 650px;
+  }
   .catalog__card-info a {
+    width: 35px;
+    height: 35px;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border-radius: 100%;
+  }
+  .yellow__mob:hover svg{
+    fill: #fff !important;
   }
   .catalog__card-info svg{
     width: 35px;
@@ -539,6 +625,23 @@
   }
   .catalog__block-link{
     border: 1px solid #b18ad9 !important;
+  }
+  .catalog__block-link:hover {
+    background: #b18ad9;
+    color: #fff;
+  }
+  .catalog__card-star ul{
+    margin-right: 20px;
+  }
+  .catalog__card-down p{
+    color: #e2b56e;
+  }
+  .catalog__block-link:hover svg{
+    fill: #fff;
+  }
+  .yellow__mob:hover a {
+    background: #e2b56e;
+    color: #fff;
   }
   .yellow{
     background: #e2b56e;
@@ -592,7 +695,7 @@
   }
   .catalog__card-mob{
     display: block;
-    max-width: 300px;
+    max-width: 420px;
     width: 100%;
     margin: 0 auto;
   }
@@ -644,6 +747,9 @@
   .catalog__card-info{
     padding: 15px 20px;
     background: #f4f4f4;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
   }
   .catalog__card-item{
     padding: 10px 0px;
@@ -674,16 +780,14 @@
     height: 64px;
   }
   .menu__dropdown-left {
-    padding: 30px;
-    width: 320px;
+    padding: 0px;
+    padding-top: 30px;
+    max-width: 320px;
+    width: 100%;
     height: 250px;
   }
   .active {
     width: 100%;
-  }
-  .menu__nav ul {
-    padding: 0;
-    padding-top: 50px;
   }
   .reviews__slide-header{
     padding-bottom: 20px;
@@ -715,6 +819,13 @@
   }
 }
 @media (max-width: 375px) {
+  .remove__menu {
+    position: absolute;
+    left: 65%;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+  }
   .info__header h2{
     font-size: 26px;
   }
@@ -732,9 +843,6 @@
   }
   .catalog{
     padding: 20px 0 40px;
-  }
-  .footer__inner-mob{
-    max-width: 100%;
   }
   .reviews{
     margin-top: 0;
