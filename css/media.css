@@ -152,6 +152,9 @@
     top: 70px;
     left: 20px;
   }
+  .menu__link{
+    max-width: 140px;
+  }
   .news__swiper{
     padding: 30px;
   }
@@ -525,16 +528,21 @@
 }
 @media (max-width: 575px) {
   .catalog__card-info a {
-    max-width: 90px;
+    align-items: center;
     justify-content: space-between;
-    border: none;
+    border-radius: 100%;
   }
   .catalog__card-info svg{
     width: 35px;
     height: 35px;
     padding: 5px;
-    border: 2px solid #a87cd5;
-    border-radius: 100%;
+  }
+  .catalog__block-link{
+    border: 1px solid #b18ad9 !important;
+  }
+  .yellow{
+    background: #e2b56e;
+    border: 1px solid #e2b56e !important;
   }
   .catalog__btn{
     max-width: 199px;
@@ -627,7 +635,7 @@
     display: none;
   }
   .catalog__block{
-    max-width: 85px;
+    max-width: 80px;
     width: 100%;
   }
   .catalog__card-info a img{
@@ -644,19 +652,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  .catalog__block::before{
-    content: "";
-    position: relative;
-    width: 36px;
-    height: 36px;
-    background-image: url(../img/like.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px 18px;
-    background-color: #e1b466;
-    border-radius: 100%;
-    cursor: pointer;
   }
   .catalog__card-item::before{
     display: none;
