@@ -401,9 +401,6 @@
     margin: 0 auto;
     text-align: center;
   }
-  .menu__link {
-    width: 140px;
-  }
   .menu__item::after {
     display: none;
   }
