@@ -1012,9 +1012,14 @@ footer {
   height: 50px;
   margin-bottom: 45px;
 }
+.news__card-header p{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+}
 .footer__contact-header p {
   font-size: 18px;
   font-weight: bold;
+  line-height: 150%;
 }
 .footer__bisnes {
   display: flex;
@@ -1024,7 +1029,8 @@ footer {
   height: 100px;
 }
 .footer__bisnes a {
-  font-size: 13pt;
+  font-size: 13px;
+  text-transform: uppercase;
   color: #333333;
 }
 .footer__from {

@@ -130,12 +130,14 @@
     max-width: 35px;
     height: 45px;
   }
-  .bonus__item::after{
-    width: 55px;
-    height: 55px;
-  }
 }
 @media (max-width: 992px) {
+  .menu__item:hover .menu__link-dropdown {
+    display: none;
+  }
+  .menu__remove{
+    display: none;
+  }
   .news__card{
     max-width: 160px;
     height: 160px;
@@ -163,7 +165,7 @@
     margin: 0 auto;
   }
   .footer__btn{
-    max-width: 300px;
+    max-width: 300px !important;
   }
   .footer__menu-inner p{
     order: 2;
@@ -205,6 +207,7 @@
     height: 28px;
     max-width: 200px;
     font-size: 12px;
+    
   }
   .news__card-title{
     padding-top: 80px;
@@ -545,12 +548,15 @@
     padding-top: 150px;
   }
   .reviews__inner::after{
-    font-size: 100px;
-    top: 110px;
-    left: -10px;
+    font-size: 200px;
+    top: 70px;
+    left: -20px;
   }
   .news__card-header p{
     font-size: 46px;
+  }
+  .news__card{
+    margin: 10px;
   }
   .bonus__item p{
     font-size: 12px;
@@ -683,6 +689,13 @@
   }
 }
 @media (max-width: 475px) {
+  .bonus__item{
+    max-width: 110px;
+  }
+  .bonus__item img{
+    max-width: 65px;
+    height: 75px;
+  }
   .swiper__img-mob{
     display: block;
   }
@@ -694,16 +707,8 @@
   }
 }
 @media (max-width: 375px) {
-  .bonus__item::after{
-    width: 75px;
-    height: 75px;
-  }
   .info__header h2{
     font-size: 26px;
-  }
-  .bonus__item img{
-    max-width: 65px;
-    height: 75px;
   }
   .info__inner{
     padding-bottom: 40px;

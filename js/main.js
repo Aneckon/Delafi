@@ -44,49 +44,55 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('.n').click(function () {
-      $('.none').hide();
-      $('.new').show();
-    });
-    $('.b').click(function () {
-      $('.none').hide();
-      $('.bestele').show();
-    });
-    $('.a').click(function () {
-      $('.none').hide();
-      $('.action').show();
-    });
+  $('.open__content-top .menu__link').click(function () {
+    $(this).next('.menu__link-dropdown').toggle();
   });
+});
+
+$(document).ready(function () {
+  $('.n').click(function () {
+    $('.none').hide();
+    $('.new').show();
+  });
+  $('.b').click(function () {
+    $('.none').hide();
+    $('.bestele').show();
+  });
+  $('.a').click(function () {
+    $('.none').hide();
+    $('.action').show();
+  });
+});
 
 
-(function() {
+(function () {
 
   'use strict';
 
-  const breakpoint = window.matchMedia( '(min-width:575px)' );
+  const breakpoint = window.matchMedia('(min-width:575px)');
 
   let mySwiper;
 
 
-  const breakpointChecker = function() {
+  const breakpointChecker = function () {
 
-  
-    if ( breakpoint.matches === true ) {
 
-	  if ( mySwiper !== undefined ) mySwiper.destroy( true, true );
+    if (breakpoint.matches === true) {
 
-	  return;
+      if (mySwiper !== undefined) mySwiper.destroy(true, true);
 
-      } else if ( breakpoint.matches === false ) {
+      return;
 
-        return enableSwiper();
+    } else if (breakpoint.matches === false) {
 
-      }
+      return enableSwiper();
+
+    }
 
   };
-  
 
-  const enableSwiper = function() {
+
+  const enableSwiper = function () {
 
     mySwiper = new Swiper('.swiper4', {
       navigation: {
