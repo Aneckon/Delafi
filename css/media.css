@@ -537,6 +537,15 @@
   }
 }
 @media (max-width: 768px) {
+  .news__swiper{
+    margin-top: 20px;
+  }
+  .family__smail{
+    display: block;
+  }
+  .family__desctop{
+    display: none;
+  }
   .news__card{
     height: auto;
   }
@@ -548,7 +557,7 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 30px;
-    padding: 30px;
+    padding: 30px 10px;
   }
   .main__btn {
     height: 38px;
@@ -700,7 +709,7 @@
     margin: 0 auto;
   }
   .news__slide-content p{
-    padding-bottom: 5px;
+    padding-bottom: 0px;
   }
   .catalog__card-item{
     background: #fff;
@@ -858,6 +867,12 @@
   .footer__nav{
     max-width: 100%;
   }
+  .news__card-topheader{
+    padding-bottom: 5px;
+  }
+  .news__card-topheader:last-child {
+    padding-top: 5px;
+  }
   .news__slide-header{
     max-width: 145px;
     width: 100%;
@@ -870,7 +885,7 @@
     font-size: 15px;
   }
   .news__card-topheader{
-    padding-top: 110px;
+    padding-top: 90px;
   }
   .main__btn{
     max-width: 100%;
