@@ -367,19 +367,6 @@
     background: #926eb8;
     z-index: 100;
   }
-  /* .open__content-top {
-    display: none;
-    padding: 0;
-    max-width: 80%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow-y: auto;
-    height: 100vh;
-    background: #a87bd2;
-    z-index: 100;
-  } */
   .menu__nav ul::before{
     content: '';
     position: fixed;
@@ -423,16 +410,15 @@
     z-index: 110;
   }
   .menu__item:hover .menu__link-dropdown {
-    top: 10px;
-    left: 0;
-    right: 0;
-    margin: 20px auto;
+    top: 40px;
+    position: fixed;
+    height: auto;
     justify-content: center;
     border-radius: 0;
   }
   .menu__link-dropdown {
-    margin-top: 30px;
-    position: relative;
+    margin-top: 0px;
+    top: 15px;
   }
   .active {
     max-width: 320px;
@@ -444,7 +430,7 @@
   .menu__dropdown-right{
     max-width: 320px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 0;
     padding-top: 30px;
     border-top: 2px solid #a77bd2;
@@ -464,8 +450,8 @@
     height: auto;
   }
   .menu__dropdown-left img {
-    width: 50px;
-    height: 35px;
+    width: 125px;
+    height: 75px;
     margin-bottom: 30px;
   }
   .menu__item {
@@ -480,10 +466,24 @@
   .fixed{
     overflow-y: hidden;
   }
-  
   .menu__item.active::before {
     right: 90px;
     top: 20px;
+  }
+  .menu__link-dropdown span::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 8px;
+    background: url("../img/arrow__left.png") no-repeat center;
+    top: 3px;
+    left: 0;
+  }
+  .menu__link-dropdown span{
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
   }
   .search input {
     display: none;
@@ -630,8 +630,8 @@
     background: #b18ad9;
     color: #fff;
   }
-  .catalog__card-star ul{
-    margin-right: 20px;
+  .catalog__card-star p{
+    margin-left: 20px;
   }
   .catalog__card-down p{
     color: #e2b56e;
@@ -797,6 +797,14 @@
   }
 }
 @media (max-width: 475px) {
+  .remove__menu::after{
+    top: 2px;
+  }
+  .menu__link-dropdown span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
   .news__card-title p{
     font-size: 36px;
     font-weight: normal;

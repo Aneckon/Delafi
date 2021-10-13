@@ -50,6 +50,13 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  $('.dropdown__span').click(function () {
+    $('.menu__link-dropdown').hide();
+    $('.menu__link-dropdown').hide();
+  });
+});
+
+$(document).ready(function () {
   $('.n').click(function () {
     $('.none').hide();
     $('.new').show();

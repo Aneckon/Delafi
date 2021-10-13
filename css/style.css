@@ -1314,6 +1314,14 @@ footer {
   flex-direction: column;
   margin: 0 auto;
 }
+.menu__link-dropdown span{
+  display: none;
+}
+.menu__link-dropdown span{
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
 .error__btn{
   margin: 30px auto;
 }
