@@ -1359,6 +1359,19 @@ footer {
   font-weight: bold;
   text-transform: uppercase;
 }
+.feedback__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.feedback__item-img{
+  display: flex;
+  align-items: center;
+}
+.feedback__star{
+  padding: 0;
+}
 .feedback__input{
   margin: 50px auto 80px;
   padding: 50px 0;
@@ -1369,29 +1382,28 @@ footer {
   position: relative;
 }
 .feedback__input::before{
-  content: '';
-  background-image: url("../img/quote.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: '“';
   position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 180px;
-  height: 140px;
+  font-size: 400px;
+  color: #fff;
+  font-weight: bold;
+  top: 10px;
+  left: 160px;
   z-index: 1;
+  opacity: .6;
 }
-.feedback__input_quote{
-  max-width: 170px;
-  width: 100%;
-  position: absolute;
-}
-.feedback__input_title{
+.feedback__input-title{
   margin: 0 auto;
   font-size: 16px;
   font-weight: bold;
 }
-.feedback__input_field{
+.swiper__desctop{
+  display: block;
+}
+.swiper__mob{
+  display: none;
+}
+.feedback__input-field{
   position: relative;
   z-index: 2;
   max-width: 950px;
@@ -1402,6 +1414,20 @@ footer {
   border-radius: 20px;
   outline-width: 0;
   resize: none;
+}
+.feedback__btn{
+  font-size: 13px;
+  font-weight: bold;
+  max-width: 360px;
+}
+.feedback__btn svg{
+  margin-right: 10px;
+  fill: #fff;
+  width: 20px;
+  height: 20px;
+}
+.feedback__btn:hover svg{
+  fill: #926eb8;
 }
 .feedback__input-button{
   max-width: 360px;
@@ -1439,10 +1465,52 @@ footer {
   justify-content: space-between;
 }
 .feedback__user{
+  font-size: 13pt;
   margin-left: 30px;
   font-weight: bold;
 }
 .feedback__date{
+  font-size: 14pt;
   justify-content: right;
-  color: #f4f4f4;
+  color: #afafaf;
+}
+.feedback__text{
+  font-size: 14pt;
+  line-height: 140%;
+}
+.pagination{
+  margin: 30px 0 60px;
+  align-items: center;
+  justify-content: center;
+}
+.page-link{
+  margin: 0 10px;
+  border: 2px solid #f3f3f3;
+  color: #333333;
+}
+.page-link:focus{
+  background: transparent;
+  box-shadow: none;
+  border: 2px solid #a87cd5;
+}
+.page-link:hover{
+  border: 2px solid #a87cd5;
+  color: #333333;
+  background: transparent;
+}
+.feedback__star{
+  display: block;
+}
+.feedback__star-mob{
+  display: none;
+}
+.page-item:last-child .page-link{
+  border: none;
+}
+.page-item:first-child .page-link{
+  border: none;
+}
+.feedback__input{
+  max-width: 1440px;
+  width: 100%;
 }

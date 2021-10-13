@@ -31,6 +31,24 @@
   }
 }
 @media (max-width: 1400px) {
+  .feedback__title{
+    font-size: 18pt;
+  }
+  .feedback__input-field{
+    max-width: 850px;
+  }
+  .feedback__input::before{
+    left: 70px;
+  }
+  .feedback__text{
+    font-size: 12pt;
+  }
+  .feedback__user{
+    font-size: 12pt;
+  }
+  .feedback__date{
+    font-size: 11pt;
+  }
   .error__logo{
     max-width: 150px;
     width: 100%;
@@ -101,6 +119,24 @@
   }
 }
 @media (max-width: 1200px){
+  .feedback__navigation{
+    margin: 30px auto;
+  }
+  .feedback__input{
+    margin: 30px 0;
+  }
+  .feedback__input-field{
+    max-width: 750px;
+  }
+  .feedback__input::before{
+    left: 30px;
+  }
+  .feedback__user{
+    font-size: 11pt;
+  }
+  .feedback__date{
+    font-size: 10pt;
+  }
   .news__card{
     margin-bottom: 30px;
     max-width: 210px;
@@ -145,6 +181,45 @@
   }
 }
 @media (max-width: 992px) {
+  .feedback__navigation{
+    margin: 30px auto;
+  }
+  .feedback__input{
+    margin: 30px 0;
+  }
+  .feedback__input-field{
+    max-width: 550px;
+    margin: 30px 20px 0;
+    height: 120px;
+  }
+  .feedback__input{
+    padding: 20px;
+  }
+  .feedback__btn{
+    margin-bottom: 0 !important;
+  }
+  .feedback__input::before{
+    left: -10px;
+  }
+  .feedback__input::before{
+    font-size: 300px;
+  }
+  .feedback__text br{
+    display: none;
+  }
+  .feedback__btn svg{
+    width: 10px;
+    height: 10px;
+  }
+  .feedback__btn{
+    font-size: 8px !important;
+  }
+  .feedback__user{
+    font-size: 11pt;
+  }
+  .feedback__date{
+    font-size: 10pt;
+  }
   .error__decor{
     display: none !important;
   }
@@ -394,24 +469,27 @@
   }
   .remove__menu {
     position: absolute;
-    left: 70%;
-    top: 30px;
-    width: 40px;
-    height: 40px;
+    right: 40px;
+    top: 40px;
+    width: 20px;
+    height: 20px;
   }
   .remove__menu::after {
     content: "";
     position: absolute;
     background: url("../img/remove__mob-menu.png") no-repeat center;
-    width: 40px;
-    height: 40px;
-    left: 0;
+    width: 20px;
+    height: 20px;
+    right: 0;
     top: 0;
     z-index: 110;
   }
   .menu__item:hover .menu__link-dropdown {
     top: 40px;
     position: fixed;
+    width: 80%;
+    left: 0;
+    padding: 0 10px;
     height: auto;
     justify-content: center;
     border-radius: 0;
@@ -467,7 +545,7 @@
     overflow-y: hidden;
   }
   .menu__item.active::before {
-    right: 90px;
+    right: 0;
     top: 20px;
   }
   .menu__link-dropdown span::after{
@@ -537,6 +615,16 @@
   }
 }
 @media (max-width: 768px) {
+  .feedback__input-field{
+    max-width: 450px;
+    margin: 30px auto 0;
+  }
+  .swiper__desctop{
+    display: none;
+  }
+  .swiper__mob{
+    display: block;
+  }
   .news__swiper{
     margin-top: 20px;
   }
@@ -806,8 +894,57 @@
   }
 }
 @media (max-width: 475px) {
+  .feedback__input-title{
+    position: relative;
+  }
+  .feedback__input-title::after{
+    content: '';
+    width: 160px;
+    height: 2px;
+    top: -62%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    background: #e2b56d;
+  }
+  .feedback__user{
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .feedback__input::before{
+    top: 50px;
+    font-size: 200px;
+  }
+  .feedback__star{
+    display: none;
+  }
+  .feedback__list{
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 20px;
+  }
+  .feedback__star-mob{
+    margin-top: 10px;
+    display: block;
+  }
+  .feedback__item{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .feedback__input-field{
+    max-width: 320px;
+  }
+  .feedback__btn{
+    max-width: 320px !important;
+    font-size: 8pt !important;
+  }
   .remove__menu::after{
     top: 2px;
+  }
+  .feedback__btn svg{
+    width: 15px;
+    height: 15px;
   }
   .menu__link-dropdown span{
     font-size: 16px;
@@ -836,12 +973,21 @@
   }
 }
 @media (max-width: 375px) {
+  .feedback__input-field{
+    max-width: 280px;
+  }
+  .page-link{
+    margin: 0 3px;
+  }
+  .feedback__btn{
+    max-width: 280px !important;
+  }
   .remove__menu {
     position: absolute;
-    left: 65%;
-    top: 30px;
-    width: 40px;
-    height: 40px;
+    right: 25px;
+    top: 40px;
+    width: 20px;
+    height: 20px;
   }
   .info__header h2{
     font-size: 26px;
