@@ -49,14 +49,6 @@
   .feedback__date{
     font-size: 11pt;
   }
-  .error__logo{
-    max-width: 150px;
-    width: 100%;
-    height: 86px;
-    text-align: center;
-    margin: 30px auto;
-    margin-bottom: 10px;
-  }
   .error_img{
     max-width: 400px;
   }
@@ -232,13 +224,6 @@
   }
   .error__decor{
     display: none !important;
-  }
-  .error__logo{
-    max-width: 150px;
-    width: 100%;
-    height: 86px;
-    text-align: center;
-    margin: 40px auto;
   }
   .error__btn{
     margin: 40px auto !important;
