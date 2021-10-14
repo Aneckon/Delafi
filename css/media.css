@@ -748,6 +748,9 @@
   }
 }
 @media (max-width: 575px) {
+  .pages__title br{
+    display: block;
+  }
   .search__dropdown-item img{
     width: 30px;
     height: 40px;
