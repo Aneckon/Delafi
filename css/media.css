@@ -181,6 +181,16 @@
   }
 }
 @media (max-width: 992px) {
+  .feedback__button{
+    height: 28px;
+    max-width: 250px;
+  }
+  .feedback__button svg{
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: 30px;
+  }
   .feedback__navigation{
     margin: 30px auto;
   }
@@ -615,6 +625,10 @@
   }
 }
 @media (max-width: 768px) {
+  .feedback__button svg{
+    top: 14px;
+    left: 20px;
+  }
   .feedback__input-field{
     max-width: 450px;
     margin: 30px auto 0;
@@ -894,6 +908,16 @@
   }
 }
 @media (max-width: 475px) {
+  .feedback__button svg{
+    top: 14px;
+    left: 40px;
+  }
+  .feedback__button{
+    max-width: 360px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+  }
   .feedback__input-title{
     position: relative;
   }
@@ -979,6 +1003,13 @@
   }
 }
 @media (max-width: 375px) {
+  .feedback__button svg{
+    top: 14px;
+    left: 35px;
+  }
+  .feedback__button{
+    max-width: 320px;
+  }
   .feedback__input-title::after{
     content: '';
     width: 160px;
@@ -1052,5 +1083,11 @@
   }
   .main__btn{
     max-width: 100%;
+  }
+}
+@media (max-width: 345px) {
+  .feedback__button svg{
+    top: 14px;
+    left: 15px;
   }
 }

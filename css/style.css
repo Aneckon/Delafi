@@ -1359,17 +1359,22 @@ footer {
 .feedback__navigation-left{
   font-size: 14pt;
 }
-.feedback__btn{
+.feedback__button{
+  max-width: 360px;
+  margin: 0 auto;
+  width: 100%;
   position: relative;
 }
-.feedback__btn::before{
-  content: '';
+.feedback__button svg{
   position: absolute;
-  left: 0;
-  top: 0;
-  background: url('../img/user.svg') no-repeat center;
-  width: 5px;
-  height: 5px;
+  left: 20px;
+  top: 12px;
+  width: 15px;
+  height: 15px;
+  fill: #fff;
+}
+.feedback__button:hover svg{
+  fill: #a87cd5;
 }
 :focus::placeholder {
   color: transparent
