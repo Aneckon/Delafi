@@ -118,7 +118,7 @@
     margin: 30px 0;
   }
   .feedback__input-field{
-    max-width: 750px;
+    max-width: 950px;
   }
   .feedback__input::before{
     left: 30px;
@@ -190,7 +190,7 @@
     margin: 30px 0;
   }
   .feedback__input-field{
-    max-width: 550px;
+    max-width: 700px;
     margin: 30px 20px 0;
     height: 120px;
   }
@@ -204,6 +204,7 @@
     left: -10px;
   }
   .feedback__input::before{
+    left: 60px;
     font-size: 300px;
   }
   .feedback__text br{
@@ -610,12 +611,16 @@
   }
 }
 @media (max-width: 768px) {
+  .feedback__input::before{
+    left: 0px;
+    font-size: 300px;
+  }
   .feedback__button svg{
     top: 14px;
     left: 20px;
   }
   .feedback__input-field{
-    max-width: 450px;
+    max-width: 520px;
     margin: 30px auto 0;
   }
   .swiper__desctop{
@@ -696,6 +701,10 @@
   }
 }
 @media (max-width: 575px) {
+  .feedback__input::before{
+    left: -10px;
+    font-size: 300px;
+  }
   .catalog__btn {
     max-width: 345px;
     height: 39px;
