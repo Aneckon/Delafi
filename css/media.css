@@ -977,10 +977,10 @@
 }
 @media (max-width: 475px) {
   .search__dropdown{
-    width: 260px;
+    width: 400px;
     padding: 10px;
     top: 185%;
-    right: -100px;
+    right: -200px;
   }
   .search__dropdown-btn a{
     font-size: 8px;
@@ -1079,12 +1079,22 @@
     max-width: 100%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 430px){
   .search__dropdown{
-    width: 250px;
+    width: 300px;
     padding: 10px;
     top: 185%;
-    right: -150px;
+    right: -220px;
+    margin: 0 20px;
+  }
+}
+@media (max-width: 375px) {
+  .search__dropdown{
+    width: 350px;
+    padding: 10px;
+    top: 185%;
+    right: -200px;
+    margin: 0 auto;
   }
   .feedback__button svg{
     top: 14px;
@@ -1166,6 +1176,15 @@
   }
   .main__btn{
     max-width: 100%;
+  }
+}
+@media (max-width: 365px) {
+  .search__dropdown{
+    width: 290px;
+    padding: 10px;
+    top: 185%;
+    right: -200px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 345px) {
