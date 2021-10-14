@@ -1127,7 +1127,7 @@ footer {
   margin: 20px 0px 0px 0 !important;
 }
 .footer__social {
-  padding: 28px 0;
+  padding: 30px 0;
   max-width: 130px;
   width: 100%;
   display: flex;
@@ -1355,6 +1355,27 @@ footer {
 /* components */
 .feedback__navigation{
   margin: 50px auto 50px;
+}
+.feedback__navigation-left{
+  font-size: 14pt;
+}
+.feedback__btn{
+  position: relative;
+}
+.feedback__btn::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url('../img/user.svg') no-repeat center;
+  width: 5px;
+  height: 5px;
+}
+:focus::placeholder {
+  color: transparent
+}
+.feedback__title br{
+  display: none;
 }
 .feedback__navigation-left{
   color: #afafaf;
