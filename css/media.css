@@ -121,7 +121,7 @@
     max-width: 950px;
   }
   .feedback__input::before{
-    left: 30px;
+    left: 0px;
   }
   .feedback__user{
     font-size: 11pt;
@@ -204,7 +204,7 @@
     left: -10px;
   }
   .feedback__input::before{
-    left: 60px;
+    left: 0px;
     font-size: 300px;
   }
   .feedback__text br{
