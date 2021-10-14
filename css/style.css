@@ -281,7 +281,8 @@ body {
 .search__dropdown-id p{
   font-size: 14px;
 }
-.search__dropdown-name p{
+.search__dropdown-name a{
+  color: #fff;
   line-height: 130%;
   max-width: 306px;
   width: 100%;
