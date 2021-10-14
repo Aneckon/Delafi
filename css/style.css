@@ -286,10 +286,11 @@ body {
   max-width: 306px;
   width: 100%;
   font-weight: bold;
-  font-size: 1xpt;
+  font-size: 14px;
 }
 .search__dropdown-btn{
-  margin-left: auto;
+  margin-left: auto !important;
+  align-items: flex-end !important;
 }
 .search__dropdown-btn a{
   border: 2px solid #fff !important;
