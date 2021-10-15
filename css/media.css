@@ -31,6 +31,9 @@
   }
 }
 @media (max-width: 1400px) {
+  .contacts__maps-content{
+    padding: 40px 30px;
+  }
   .feedback__title{
     font-size: 18pt;
   }
@@ -111,6 +114,28 @@
   }
 }
 @media (max-width: 1200px){
+  .contacts__card-header{
+    max-width: 880px;
+  }
+  .contacts__card-inner::before{
+    max-width: 940px;
+  }
+  .contacts__card-inner::after{
+    max-width: 940px;
+  }
+  .contacts__card-header p{
+    font-size: 16px;
+  }
+  .contacts__card-subheader p{
+    font-size: 12px;
+  }
+  .contacts__card-button{
+    max-width: 420px;
+  }
+  .contacts__card-btn{
+    max-width: 200px;
+    font-size: 12px;
+  }
   .search__dropdown {
     width: 485px;
   }
@@ -176,6 +201,41 @@
   }
 }
 @media (max-width: 992px) {
+  .contacts__form-inner{
+    padding: 60px 80px;
+  }
+  .contacts__maps-content{
+    padding: 30px 20px;
+  }
+  .contacts__gps svg{
+    margin-bottom: 10px;
+  }
+  .contacts__tel img{
+    padding-bottom: 10px;
+  }
+  .contacts__social svg{
+    width: 20px;
+    height: 20px;
+  }
+  .contacts__gps p{
+    font-size: 12px;
+  }
+  .contacts__card-header{
+    max-width: 580px;
+  }
+  .contacts__card-header p{
+    font-size: 14px;
+  }
+  .contacts__card-subheader p{
+    font-size: 12px;
+  }
+  .contacts__card-button{
+    max-width: 420px;
+  }
+  .contacts__card-btn{
+    max-width: 200px;
+    font-size: 10px;
+  }
   .search__dropdown-id p{
     font-size: 10px;
   }
@@ -627,6 +687,68 @@
   }
 }
 @media (max-width: 768px) {
+  .contacts__maps-content{
+    margin-bottom: 20px;
+  }
+  #map{
+    height: 388px;
+  }
+  .contacts__form-inner{
+    padding: 30px;
+  }
+  .contacts__gps p{
+    font-size: 14px;
+  }
+  .contacts__social svg{
+    width: 25px;
+    height: 25px;
+  }
+  .contacts__gps p{
+    font-size: 14px;
+  }
+  .contacts__card{
+    margin-bottom: 20px;
+  }
+  .contacts__maps-content{
+    height: auto;
+  }
+  .contacts__gps{
+    padding-bottom: 20px;
+  }
+  .contacts__tel{
+    padding-bottom: 20px;
+  }
+  .contacts__email{
+    padding-top: 20px;
+  }
+  .contacts__maps{
+    margin-bottom: 20px;
+  }
+  .contacts__card-header{
+    max-width: 580px;
+  }
+  .contacts__card-header p{
+    font-size: 12px;
+  }
+  .contacts__card-subheader p{
+    font-size: 10px;
+  }
+  .contacts__card-button{
+    max-width: 420px;
+  }
+  .contacts__card-inner::before{
+    height: 260px;
+  }
+  .contacts__card-inner::after{
+    height: 260px;
+  }
+  .contacts__card-inner{
+    padding: 32px;
+  }
+  .contacts__card-btn{
+    max-width: 200px;
+    font-size: 10px;
+  }
   .search__dropdown-id p{
     font-size: 8px;
   }
@@ -748,6 +870,9 @@
   }
 }
 @media (max-width: 575px) {
+  .contacts__card-btn{
+    max-width: 190px;
+  }
   .pages__title br{
     display: block;
   }
@@ -980,6 +1105,53 @@
   }
 }
 @media (max-width: 475px) {
+  .contacts__input{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contacts__input input:first-child{
+    margin-right: 0;
+  }
+  .contacts__form-inner textarea{
+    height: 100px;
+  }
+  .contacts__form-header p{
+    font-size: 15px;
+  }
+  .contacts__input input:last-child{
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .contacts__card-header{
+    max-width: 580px;
+  }
+  .contacts__card-header p{
+    font-size: 12px;
+  }
+  .contacts__card-subheader p{
+    font-size: 10px;
+  }
+  .contacts__card-button{
+    max-width: 420px;
+  }
+  .contacts__card-inner::before{
+    height: 360px;
+  }
+  .contacts__card-inner::after{
+    height: 360px;
+  }
+  .contacts__card-inner{
+    padding: 32px;
+  }
+  .contacts__card-button{
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts__card-btn{
+    margin-bottom: 20px;
+    max-width: 100%;
+    font-size: 10px;
+  }
   .search__dropdown{
     width: 400px;
     padding: 10px;
@@ -1183,6 +1355,31 @@
   }
 }
 @media (max-width: 365px) {
+  .contacts__card-inner::before{
+    height: 420px;
+  }
+  .contacts__card-header p{
+    font-size: 15px;
+  }
+  .contacts__card-subheader p{
+    font-size: 14px;
+  }
+  .contacts__card-header{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .contacts__card-btn{
+    margin-bottom: 15px;
+  }
+  .contacts__card-inner::after{
+    height: 420px;
+  }
+  .contacts__card-btn:last-child{
+    margin-bottom: 0;
+  }
+  .contacts__card-inner{
+    padding: 30px;
+  }
   .search__dropdown{
     width: 290px;
     padding: 10px;
