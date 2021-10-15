@@ -54,3 +54,9 @@ button{
 p{
   color: #333333;
 }
+input:focus::-webkit-input-placeholder {
+  color: transparent !important;
+}
+textarea{
+  resize: none !important;
+}
