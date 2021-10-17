@@ -687,6 +687,15 @@
   }
 }
 @media (max-width: 768px) {
+  .aboute__bg{
+    margin-bottom: 100px;
+  }
+  .aboute__content-item{
+    margin-bottom: 20px;
+  }
+  .aboute__bg-inner{
+    padding: 40px 60px;
+  }
   .contacts__maps-content{
     margin-bottom: 20px;
   }
@@ -1105,6 +1114,9 @@
   }
 }
 @media (max-width: 475px) {
+  .aboute__bg-inner{
+    padding: 40px;
+  }
   .contacts__input{
     flex-direction: column;
     justify-content: center;
@@ -1265,6 +1277,13 @@
   }
 }
 @media (max-width: 375px) {
+  .aboute__bg-title{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .aboute__bg-inner{
+    padding: 20px;
+  }
   .search__dropdown{
     width: 350px;
     padding: 10px;
