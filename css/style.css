@@ -1732,6 +1732,7 @@ footer {
 .contacts__maps-btn:hover{
   border: 2px solid #e1b466;
   background: #e1b466;
+  color: #fff;
 }
 .contacts__social{
   padding: 20px 0 0 0 !important;
@@ -1792,6 +1793,15 @@ footer {
 }
 .contacts__form{
   margin-bottom: 50px;
+}
+.contacts__card-btn svg{
+  width: 15px;
+  height: 15px;
+  fill: #fff;
+  margin-right: 10px;
+}
+.contacts__card-btn:hover svg{
+  fill: #e1b466;
 }
 .contacts__input{
   display: flex;
