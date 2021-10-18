@@ -1925,6 +1925,7 @@ footer {
 }
 .aboute__bg-content p{
   font-size: 16px;
+  line-height: 160%;
 }
 .aboute__content{
   margin-bottom: 60px;
@@ -1960,5 +1961,6 @@ footer {
   font-weight: bold;
 }
 .aboute__content-text p{
-  font-size: 18px;
+  font-size: 14px;
+  line-height: 160%;
 }
