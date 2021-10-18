@@ -605,7 +605,7 @@
     margin-bottom: 30px;
   }
   .menu__item {
-    max-width: 220px;
+    max-width: 90%;
     width: 100%;
     margin: 30px 20px;
     text-align: left;
