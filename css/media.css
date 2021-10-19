@@ -320,9 +320,6 @@
   .catalog__card-price p {
     font-size: 12px;
   }
-  .catalog__card-btn a {
-    max-width: 100px;
-  }
   .menu__item:hover .menu__link-dropdown {
     display: none;
   }
@@ -1111,6 +1108,13 @@
   }
 }
 @media (max-width: 475px) {
+  .catalog__card-price p {
+    font-size: 16px;
+  }
+  .catalog__card{
+    max-width: 300px;
+    width: 100%;
+  }
   .catalog__btn {
     max-width: 80% !important;
     width: 100%;
@@ -1276,7 +1280,7 @@
 }
 @media (max-width: 430px) {
   .catalog__btn {
-    max-width: 100% !important;
+    max-width: 300px !important;
     width: 100%;
   }
   .search__dropdown {

@@ -572,6 +572,9 @@ body {
 .swiper4 .swiper-slide{
   width: 23.5% !important;
 }
+.catalog__card{
+  text-align: left;
+}
 .catalog__card-item::before {
   content: "";
   position: absolute;
