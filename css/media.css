@@ -114,6 +114,15 @@
   }
 }
 @media (max-width: 1200px){
+  .swiper4 .swiper-wrapper{
+    flex-wrap: wrap;
+  }
+  .catalog__card-item{
+    text-align: left;
+  }
+  .swiper4 .swiper-slide{
+    width: 48% !important;
+  }
   .contacts__card-header{
     max-width: 880px;
   }
@@ -924,14 +933,6 @@
   .catalog__nav{
     max-width: 650px;
   }
-  .catalog__card-info a {
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-  }
   .yellow__mob:hover svg{
     fill: #fff !important;
   }
@@ -959,10 +960,6 @@
   .yellow__mob:hover a {
     background: #e2b56e;
     color: #fff;
-  }
-  .yellow{
-    background: #e2b56e;
-    border: 1px solid #e2b56e !important;
   }
   .catalog__btn{
     max-width: 199px;
@@ -1010,17 +1007,8 @@
   .swiper-pagination2{
     display: block;
   }
-  .catalog__card-mob{
-    display: block;
-    max-width: 420px;
-    width: 100%;
-    margin: 0 auto;
-  }
   .news__slide-content p{
     padding-bottom: 0px;
-  }
-  .catalog__card-item{
-    background: #fff;
   }
   .catalog__card-content{
     border: 2px solid #f4f4f4;
@@ -1051,25 +1039,27 @@
   .reviews__btn{
     margin-top: 20px;
   }
-  .catalog__card{
-    display: none;
-  }
   .catalog__block{
     max-width: 80px;
     width: 100%;
   }
+  .catalog__nav{
+    flex-direction: column;
+  }
+  .catalog__btn{
+    margin-bottom: 10px;
+  }
+  .catalog__inner{
+    padding-top: 20px;
+  }
+  .catalog__btn:last-child{
+    margin-bottom: 0;
+  }
   .catalog__card-info a img{
     margin-right: 0 !important;
   }
-  .catalog__card-info{
-    padding: 15px 20px;
-    background: #f4f4f4;
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-  }
-  .catalog__card-item{
-    padding: 10px 0px;
+  .catalog__card-btn a{
+    margin-left: auto;
   }
   .catalog__block{
     display: flex;
@@ -1114,6 +1104,12 @@
   }
 }
 @media (max-width: 475px) {
+  .swiper4 .swiper-wrapper{
+    flex-wrap: nowrap;
+  }
+  .swiper4 .swiper-slide{
+    width: 100% !important;
+  }
   .aboute__bg-inner{
     padding: 40px;
   }
@@ -1408,6 +1404,10 @@
   }
 }
 @media (max-width: 345px) {
+  .catalog__btn{
+    max-width: 100%;
+    width: 100%;
+  }
   .aboute__bg-inner::after{
     content: '';
     position: absolute;
