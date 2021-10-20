@@ -11,7 +11,12 @@ $(document).ready(function () {
     $(this).next('.menu__link-dropdown').toggle();
   });
 });
-
+$(document).ready(function () {
+  $('.catalog__btn').click(function () {
+    $('.catalog__btn').removeClass('catalog__active');
+    $(this).addClass('catalog__active');
+  });
+});
 $(document).ready(function () {
   $('.dropdown__span').click(function () {
     $('.menu__link-dropdown').hide();
