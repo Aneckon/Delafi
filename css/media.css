@@ -1043,9 +1043,6 @@
   .catalog__btn {
     margin-bottom: 10px;
   }
-  .catalog__inner {
-    padding-top: 20px;
-  }
   .catalog__btn:last-child {
     margin-bottom: 0;
   }
@@ -1095,6 +1092,12 @@
   }
 }
 @media (max-width: 475px) {
+  .catalog {
+    padding: 40px;
+  }
+  .catalog__inner {
+    padding-top: 20px;
+  }
   .catalog__card-price p {
     font-size: 16px;
   }
