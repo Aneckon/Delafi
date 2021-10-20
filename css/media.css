@@ -886,11 +886,6 @@
   }
 }
 @media (max-width: 575px) {
-  .catalog__card-down svg{
-    width: 35px;
-    height: 34px;
-    padding: 5px;
-  }
   .contacts__card-btn {
     max-width: 190px;
   }
@@ -938,11 +933,6 @@
   }
   .yellow__mob:hover svg {
     fill: #fff !important;
-  }
-  .catalog__card-info svg {
-    width: 35px;
-    height: 35px;
-    padding: 5px;
   }
   .catalog__block-link {
     border: 1px solid #b18ad9 !important;
@@ -1074,9 +1064,6 @@
     display: none;
   }
   .catalog__card-item::after {
-    display: none;
-  }
-  .catalog__card-hits {
     display: none;
   }
   .catalog__active {
