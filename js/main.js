@@ -5,10 +5,20 @@ $(document).ready(function () {
     $('body').toggleClass('fixed');
   });
 });
-
+$(document).ready(function () {
+  $('.catalog__sidebar-menu').click(function () {
+    $('.catalog__sidebar').toggleClass('open__menu');
+    $('.catalog__sidebar-menu').toggleClass('catalog__remove');
+  });
+});
 $(document).ready(function () {
   $('.menu__link').click(function () {
     $(this).next('.menu__link-dropdown').toggle();
+  });
+});
+$(document).ready(function () {
+  $('.catalog__mob-title').click(function () {
+    $(this).next('.catalog__dropdown').toggle();
   });
 });
 $(document).ready(function () {
