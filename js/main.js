@@ -11,6 +11,17 @@ $(document).ready(function () {
     $('.catalog__sidebar-menu').toggleClass('catalog__remove');
   });
 });
+
+
+$(document).ready(function () {
+  $('.catalog__icon-img__left').click(function () {
+    $('.catalog__inner').removeClass('catalog__row')
+  })
+  $('.catalog__icon-img__right').click(function () {
+    $('.catalog__inner').addClass('catalog__row')
+  })
+});
+
 $(document).ready(function () {
   $('.menu__link').click(function () {
     $(this).next('.menu__link-dropdown').toggle();
