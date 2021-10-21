@@ -211,6 +211,17 @@
   }
 }
 @media (max-width: 992px) {
+  .catalog__sidebar::before{
+    content: "";
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    z-index: -1;
+  }
   .catalog__mob-title::after{
     content: '';
     position: absolute;
@@ -248,7 +259,7 @@
     left: 0;
     top: 0;
     height: 100vh;
-    width: 70%;
+    width: 85%;
     z-index: 1111;
   }
   .catalog__sidebar-categor{
@@ -269,7 +280,7 @@
     display: block;
     position: fixed;
     top: 50%;
-    left: 68%;
+    left: 77%;
     z-index: 1112;
   }
   .catalog__sidebar-mob__title{
@@ -749,6 +760,27 @@
   }
 }
 @media (max-width: 768px) {
+  .catalog__row .catalog__card-item__content::after{
+    display: none;
+  }
+  .catalog__row .catalog__card-item{
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .catalog__row .catalog__card-item__content{
+    width: 42%;
+  }
+  .catalog__row .catalog__card::after{
+    right: 0;
+    top: 10px;
+    left: auto;
+  }
+  .catalog__row .catalog__card-price__item{
+    width: 100%;
+  }
+  .catalog__row .catalog__card{
+    align-items: start;
+  }
   .catalog__item{
     width: 48%;
   }
@@ -1082,9 +1114,8 @@
   .reviews_star {
     padding-bottom: 0;
   }
-  .catalog__card-item .catalog__card-img {
-    width: 50px;
-    height: 50px;
+  .catalog__row .catalog__card-item .catalog__card-img {
+    width: 55px;
     margin-right: 20px;
   }
   .reviews__btn {
@@ -1149,6 +1180,16 @@
   }
 }
 @media (max-width: 475px) {
+  .catalog__row .catalog__card-item__content{
+    width: 72%;
+  }
+  .cart span{
+    display: none;
+  }
+  .cart{
+    width: 30px;
+    background: transparent;
+  }
   .select2-container{
     max-width: 100% !important;
   }
@@ -1357,7 +1398,7 @@
     margin: 0 20px;
   }
   .menu__search{
-    max-width: 300px;
+    max-width: 220px !important;
   }
   .search{
     max-width: 150px;
@@ -1512,10 +1553,10 @@
 }
 @media (max-width: 345px) {
   .search{
-    max-width: 80px;
+    max-width: 160px;
   }
-  .menu__search{
-    max-width: 230px;
+  .pages__navigation-left{
+    line-height: 150%;
   }
   .search__dropdown {
     width: 325px;
