@@ -2466,3 +2466,84 @@ footer {
   right: auto;
   left: 46%;
 }
+
+
+/* cabinet */
+.cabinet__inner{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.cabinet__inner th{
+  width: 100%;
+  padding: 25px;
+  background: #f4f4f4;
+}
+.cabinet__item{
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cabinet__inner tr{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f4f4f4;
+}
+.cabinet__inner td{
+  padding: 25px;
+}
+.cabinet__item img{
+  width: 50px;
+}
+.cabinet__card-name{
+  padding-bottom: 0;
+}
+.cabinet__cacl-inner{
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cabinet__calc{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100px;
+  width: 100%;
+}
+.cabinet__price{
+  font-weight: bold;
+  font-size: 14px;
+}
+.cabinet__calc button{
+  font-weight: bold;
+  font-size: 14px;
+}
+.cabinet__calc p{
+  font-size: 14px;
+  font-weight: bold;
+}
+.cabinet__artic{
+  font-size: 14px;
+}
+.cabinet__card-item{
+  width: calc(100% - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cabinet__calc-item{
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cabinet__price-text__mob{
+  display: none;
+  font-size: 14px;
+  font-weight: bold;
+}

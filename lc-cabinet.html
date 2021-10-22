@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="css/fontawesome/brands.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header__inner">
+        <div class="mob__login">
+          <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><svg
+              viewBox="-42 0 512 512.002" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m210.351562 246.632812c33.882813 0 63.222657-12.152343 87.195313-36.128906 23.972656-23.972656 36.125-53.304687 36.125-87.191406 0-33.875-12.152344-63.210938-36.128906-87.191406-23.976563-23.96875-53.3125-36.121094-87.191407-36.121094-33.886718 0-63.21875 12.152344-87.191406 36.125s-36.128906 53.308594-36.128906 87.1875c0 33.886719 12.15625 63.222656 36.132812 87.195312 23.976563 23.96875 53.3125 36.125 87.1875 36.125zm0 0" />
+              <path
+                d="m426.128906 393.703125c-.691406-9.976563-2.089844-20.859375-4.148437-32.351563-2.078125-11.578124-4.753907-22.523437-7.957031-32.527343-3.308594-10.339844-7.808594-20.550781-13.371094-30.335938-5.773438-10.15625-12.554688-19-20.164063-26.277343-7.957031-7.613282-17.699219-13.734376-28.964843-18.199219-11.226563-4.441407-23.667969-6.691407-36.976563-6.691407-5.226563 0-10.28125 2.144532-20.042969 8.5-6.007812 3.917969-13.035156 8.449219-20.878906 13.460938-6.707031 4.273438-15.792969 8.277344-27.015625 11.902344-10.949219 3.542968-22.066406 5.339844-33.039063 5.339844-10.972656 0-22.085937-1.796876-33.046874-5.339844-11.210938-3.621094-20.296876-7.625-26.996094-11.898438-7.769532-4.964844-14.800782-9.496094-20.898438-13.46875-9.75-6.355468-14.808594-8.5-20.035156-8.5-13.3125 0-25.75 2.253906-36.972656 6.699219-11.257813 4.457031-21.003906 10.578125-28.96875 18.199219-7.605469 7.28125-14.390625 16.121094-20.15625 26.273437-5.558594 9.785157-10.058594 19.992188-13.371094 30.339844-3.199219 10.003906-5.875 20.945313-7.953125 32.523437-2.058594 11.476563-3.457031 22.363282-4.148437 32.363282-.679688 9.796875-1.023438 19.964844-1.023438 30.234375 0 26.726562 8.496094 48.363281 25.25 64.320312 16.546875 15.746094 38.441406 23.734375 65.066406 23.734375h246.53125c26.625 0 48.511719-7.984375 65.0625-23.734375 16.757813-15.945312 25.253906-37.585937 25.253906-64.324219-.003906-10.316406-.351562-20.492187-1.035156-30.242187zm0 0" />
+            </svg></button>
+        </div>
+        <div class="header__logo">
+          <img src="img/logo.png" alt="">
+        </div>
+        <div class="mob__phone">
+          <?xml version="1.0" encoding="iso-8859-1"?>
+          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 513.64 513.64" style="enable-background:new 0 0 513.64 513.64;"
+            xml:space="preserve">
+            <g>
+              <g>
+                <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72
+			c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68
+			c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44
+			l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
+              </g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+          </svg>
+        </div>
+        <div class="header__phone">
+          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 513.64 513.64" style="enable-background:new 0 0 513.64 513.64;"
+            xml:space="preserve">
+            <g>
+              <g>
+                <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72
+			c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68
+			c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44
+			l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
+              </g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+          </svg>
+          <div class="header__phone-item">
+            <a href="tel:380668897979">+38 (066) 889-79-79</a>
+            <a href="tel:380668897979">+38 (066) 889-79-79</a>
+            <a href="tel:380668897979">+38 (066) 889-79-79(Viber)</a>
+            <a href="#" class="obrat">Заказать обратный звонок</a>
+          </div>
+        </div>
+        <div class="header__email">
+          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 230.17 230.17" style="enable-background:new 0 0 230.17 230.17;"
+            xml:space="preserve">
+            <g>
+              <path
+                d="M230,49.585c0-0.263,0.181-0.519,0.169-0.779l-70.24,67.68l70.156,65.518c0.041-0.468-0.085-0.94-0.085-1.418V49.585z" />
+              <path d="M149.207,126.901l-28.674,27.588c-1.451,1.396-3.325,2.096-5.2,2.096c-1.836,0-3.672-0.67-5.113-2.013l-28.596-26.647
+		L11.01,195.989c1.717,0.617,3.56,1.096,5.49,1.096h197.667c2.866,0,5.554-0.873,7.891-2.175L149.207,126.901z" />
+              <path d="M115.251,138.757L222.447,35.496c-2.427-1.443-5.252-2.411-8.28-2.411H16.5c-3.943,0-7.556,1.531-10.37,3.866
+		L115.251,138.757z" />
+              <path d="M0,52.1v128.484c0,1.475,0.339,2.897,0.707,4.256l69.738-67.156L0,52.1z" />
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+          </svg>
+          <div class="header__email-item">
+            <a href="mailto:office@delafi.ua">office@delafi.ua</a>
+            <p>Режим работы:</p>
+            <p>Пн-Пт: 09:00 - 18:00</p>
+            <p>Сб-Вс: Выходной</p>
+          </div>
+        </div>
+        <div class="header__money">
+          <div class="header__reg">
+            <svg viewBox="-42 0 512 512.002" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m210.351562 246.632812c33.882813 0 63.222657-12.152343 87.195313-36.128906 23.972656-23.972656 36.125-53.304687 36.125-87.191406 0-33.875-12.152344-63.210938-36.128906-87.191406-23.976563-23.96875-53.3125-36.121094-87.191407-36.121094-33.886718 0-63.21875 12.152344-87.191406 36.125s-36.128906 53.308594-36.128906 87.1875c0 33.886719 12.15625 63.222656 36.132812 87.195312 23.976563 23.96875 53.3125 36.125 87.1875 36.125zm0 0" />
+              <path
+                d="m426.128906 393.703125c-.691406-9.976563-2.089844-20.859375-4.148437-32.351563-2.078125-11.578124-4.753907-22.523437-7.957031-32.527343-3.308594-10.339844-7.808594-20.550781-13.371094-30.335938-5.773438-10.15625-12.554688-19-20.164063-26.277343-7.957031-7.613282-17.699219-13.734376-28.964843-18.199219-11.226563-4.441407-23.667969-6.691407-36.976563-6.691407-5.226563 0-10.28125 2.144532-20.042969 8.5-6.007812 3.917969-13.035156 8.449219-20.878906 13.460938-6.707031 4.273438-15.792969 8.277344-27.015625 11.902344-10.949219 3.542968-22.066406 5.339844-33.039063 5.339844-10.972656 0-22.085937-1.796876-33.046874-5.339844-11.210938-3.621094-20.296876-7.625-26.996094-11.898438-7.769532-4.964844-14.800782-9.496094-20.898438-13.46875-9.75-6.355468-14.808594-8.5-20.035156-8.5-13.3125 0-25.75 2.253906-36.972656 6.699219-11.257813 4.457031-21.003906 10.578125-28.96875 18.199219-7.605469 7.28125-14.390625 16.121094-20.15625 26.273437-5.558594 9.785157-10.058594 19.992188-13.371094 30.339844-3.199219 10.003906-5.875 20.945313-7.953125 32.523437-2.058594 11.476563-3.457031 22.363282-4.148437 32.363282-.679688 9.796875-1.023438 19.964844-1.023438 30.234375 0 26.726562 8.496094 48.363281 25.25 64.320312 16.546875 15.746094 38.441406 23.734375 65.066406 23.734375h246.53125c26.625 0 48.511719-7.984375 65.0625-23.734375 16.757813-15.945312 25.253906-37.585937 25.253906-64.324219-.003906-10.316406-.351562-20.492187-1.035156-30.242187zm0 0" />
+            </svg>
+            <div class="header__reg-item">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Вход</button>
+              <span>/</span>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Регистрация</button>
+            </div>
+          </div>
+          <div class="header__money-inner">
+            <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+              xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <path
+                  d="m437.02 74.98c-48.352-48.352-112.64-74.98-181.02-74.98s-132.668 26.628-181.02 74.98-74.98 112.64-74.98 181.02 26.629 132.667 74.98 181.02 112.64 74.98 181.02 74.98 132.668-26.628 181.02-74.98 74.98-112.64 74.98-181.02-26.629-132.667-74.98-181.02zm-181.02 165.02c39.701 0 72 32.299 72 72 0 32.877-22.157 60.659-52.318 69.243-2.167.617-3.682 2.566-3.682 4.819v13.486c0 8.616-6.621 16.029-15.227 16.434-9.189.432-16.773-6.889-16.773-15.982v-13.941c0-2.247-1.506-4.197-3.667-4.812-30.032-8.54-52.132-36.113-52.332-68.8-.053-8.725 6.807-16.19 15.529-16.44 9.051-.26 16.47 7 16.47 15.993 0 23.002 19.517 41.532 42.859 39.9 19.704-1.377 35.665-17.339 37.041-37.043 1.63-23.343-16.899-42.857-39.9-42.857-39.701 0-72-32.299-72-72 0-32.877 22.157-60.659 52.318-69.243 2.167-.617 3.682-2.566 3.682-4.819v-13.486c0-8.616 6.621-16.029 15.227-16.434 9.189-.432 16.773 6.889 16.773 15.982v13.941c0 2.247 1.506 4.197 3.667 4.812 30.032 8.54 52.132 36.113 52.332 68.8.053 8.725-6.807 16.19-15.529 16.44-9.051.26-16.47-7-16.47-15.993 0-23.002-19.517-41.532-42.859-39.9-19.704 1.377-35.665 17.339-37.041 37.043-1.63 23.343 16.899 42.857 39.9 42.857z" />
+              </g>
+            </svg>
+            <div class="header__money-item">
+              <p class="money__bold">USD (28,15 грн.)</p>
+              <p>*Минимальная сумма<br>
+                заказа - 30 USD </p>
+            </div>
+          </div>
+        </div>
+        <div class="header__rus">
+          <a class="header__btn" href="#">РУС</a>
+          <div class="header__dopdowns">
+            <a href="#">ENG</a>
+            <a href="#">УКР</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__topmob">
+      <div class="container">
+        <div class="header__topmob-inner">
+          <div class="header__money-inner mob">
+            <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+              xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <path
+                  d="m437.02 74.98c-48.352-48.352-112.64-74.98-181.02-74.98s-132.668 26.628-181.02 74.98-74.98 112.64-74.98 181.02 26.629 132.667 74.98 181.02 112.64 74.98 181.02 74.98 132.668-26.628 181.02-74.98 74.98-112.64 74.98-181.02-26.629-132.667-74.98-181.02zm-181.02 165.02c39.701 0 72 32.299 72 72 0 32.877-22.157 60.659-52.318 69.243-2.167.617-3.682 2.566-3.682 4.819v13.486c0 8.616-6.621 16.029-15.227 16.434-9.189.432-16.773-6.889-16.773-15.982v-13.941c0-2.247-1.506-4.197-3.667-4.812-30.032-8.54-52.132-36.113-52.332-68.8-.053-8.725 6.807-16.19 15.529-16.44 9.051-.26 16.47 7 16.47 15.993 0 23.002 19.517 41.532 42.859 39.9 19.704-1.377 35.665-17.339 37.041-37.043 1.63-23.343-16.899-42.857-39.9-42.857-39.701 0-72-32.299-72-72 0-32.877 22.157-60.659 52.318-69.243 2.167-.617 3.682-2.566 3.682-4.819v-13.486c0-8.616 6.621-16.029 15.227-16.434 9.189-.432 16.773 6.889 16.773 15.982v13.941c0 2.247 1.506 4.197 3.667 4.812 30.032 8.54 52.132 36.113 52.332 68.8.053 8.725-6.807 16.19-15.529 16.44-9.051.26-16.47-7-16.47-15.993 0-23.002-19.517-41.532-42.859-39.9-19.704 1.377-35.665 17.339-37.041 37.043-1.63 23.343 16.899 42.857 39.9 42.857z" />
+              </g>
+            </svg>
+            <div class="header__money-item">
+              <p>USD (28,15 грн.)</p>
+            </div>
+          </div>
+          <div class="header__rus mob">
+            <a class="header__btn" href="#">РУС</a>
+            <div class="header__dopdowns">
+              <a href="#">ENG</a>
+              <a href="#">УКР</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="menu">
+      <div class="container">
+        <nav class="menu__nav">
+          <ul class="menu__list">
+            <li class="menu__item active open__content-top">
+              <a class="menu__link" href="#">ПАРФЮМЕРИЯ</a>
+              <div class="menu__link-dropdown">
+                <span class="dropdown__span">ПАРФЮМЕРИЯ</span>
+                <div class="menu__dropdown-left">
+                  <img src="img/logo__menu2.png" alt="">
+                  <div class="menu__dropdown-content">
+                    <div class="menu__dropdown-item">
+                      <div class="menu__dropdown-header">
+                        <p>Для женщин</p>
+                      </div>
+                      <div class="menu__dropdown-info">
+                        <a href="#">Духи</a>
+                        <a href="#">Туалетная вода</a>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <div class="menu__dropdown-header">
+                        <p>Для мужчин</p>
+                      </div>
+                      <div class="menu__dropdown-info">
+                        <a href="#">Духи</a>
+                        <a href="#">Туалетная вода</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__dropdown-right">
+                  <img src="img/logo__menu.png" alt="">
+                  <div class="menu__dropdown-content">
+                    <div class="menu__dropdown-item">
+                      <div class="menu__dropdown-header">
+                        <p>Для женщин</p>
+                      </div>
+                      <div class="menu__dropdown-info">
+                        <a href="#">Духи</a>
+                        <a href="#">Туалетная вода</a>
+                        <a href="#">Антисептики</a>
+                        <a href="#">Подарочная серия</a>
+                        <a href="#">Духи без спирт</a>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <div class="menu__dropdown-header">
+                        <p>Для мужчин</p>
+                      </div>
+                      <div class="menu__dropdown-info">
+                        <a href="#">Духи</a>
+                        <a href="#">Туалетная вода</a>
+                        <a href="#">Антисептики</a>
+                        <a href="#">Подарочная серия</a>
+                        <a href="#">Духи без спирт</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item active open__content-top">
+              <a class="menu__link" href="#">ФЛАКОНЫ</a>
+              <div class="menu__link-dropdown">
+                <span class="dropdown__span">ФЛАКОНЫ</span>
+                <div class="menu__dropdown-left">
+                  <img src="img/logo__menu2.png" alt="">
+                  <div class="menu__dropdown-content">
+                    <div class="menu__dropdown-item">
+                      <div class="menu__dropdown-header">
+                        <p>Для женщин</p>
+                      </div>
+                      <div class="menu__dropdown-info">
+                        <a href="#">Духи</a>
+                        <a href="#">Туалетная вода</a>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <div class="menu__dropdown-header">
+                        <p>Для мужчин</p>
+                      </div>
+                      <div class="menu__dropdown-info">
+                        <a href="#">Духи</a>
+                        <a href="#">Туалетная вода</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__dropdown-right">
+                  <img src="img/logo__menu.png" alt="">
+                  <div class="menu__dropdown-content">
+                    <div class="menu__dropdown-item">
+                      <div class="menu__dropdown-header">
+                        <p>Для женщин</p>
+                      </div>
+                      <div class="menu__dropdown-info">
+                        <a href="#">Духи</a>
+                        <a href="#">Туалетная вода</a>
+                        <a href="#">Антисептики</a>
+                        <a href="#">Подарочная серия</a>
+                        <a href="#">Духи без спирт</a>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <div class="menu__dropdown-header">
+                        <p>Для мужчин</p>
+                      </div>
+                      <div class="menu__dropdown-info">
+                        <a href="#">Духи</a>
+                        <a href="#">Туалетная вода</a>
+                        <a href="#">Антисептики</a>
+                        <a href="#">Подарочная серия</a>
+                        <a href="#">Духи без спирт</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">НАБОРЫ</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Прайс-лист</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Сотрудничество</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">КОНТАКТЫ</a>
+            </li>
+          </ul>
+          <div class="menu__mob"></div>
+          <div class="menu__search">
+            <div class="search__inner">
+              <form class="search">
+                <input type="text" placeholder="Духи E12">
+              </form>
+              <div class="search__dropdown d-none">
+                <div class="search__dropdown-item">
+                  <img src="img/card__mob.png" alt="">
+                  <div class="search__dropdown-content">
+                    <div class="search__dropdown-id">
+                      <p>F12</p>
+                    </div>
+                    <div class="search__dropdown-name">
+                      <a href="#">Духи на разлив Miss Dior Cherie Blooming Bouqet</a>
+                    </div>
+                  </div>
+                  <div class="catalog__card-btn search__dropdown-btn">
+                    <a href="#" class="catalog__serth">
+                      <?xml version="1.0" encoding="iso-8859-1"?>
+                      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                          <g>
+                            <path d="M443.188,442.208L415.956,142.56c-0.768-8.256-7.68-14.56-15.968-14.56h-48V96c0-25.728-9.952-49.888-28.032-67.968
+                          C305.876,9.952,281.716,0,255.988,0c-52.928,0-96,43.072-96,96v32h-48c-8.288,0-15.2,6.304-15.936,14.56L68.82,442.208
+                          c-1.632,17.856,4.384,35.712,16.48,48.96S114.612,512,132.564,512h246.88c17.952,0,35.168-7.584,47.264-20.832
+                          S444.788,460.064,443.188,442.208z M191.988,96c0-35.296,28.704-64,64-64c17.184,0,33.28,6.624,45.344,18.656
+                          c12.064,12.032,18.656,28.16,18.656,45.344v32h-128V96z M403.06,469.6c-6.144,6.688-14.528,10.4-23.648,10.4H132.564
+                          c-9.088,0-17.504-3.712-23.616-10.432c-6.144-6.72-9.056-15.392-8.224-24.48L126.612,160h33.376v48c0,8.832,7.168,16,16,16
+                          c8.832,0,16-7.168,16-16v-48h128v48c0,8.832,7.168,16,16,16c8.832,0,16-7.168,16-16v-48h33.376l25.92,285.12
+                          C412.116,454.176,409.204,462.88,403.06,469.6z" />
+                          </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="search__dropdown-item">
+                  <img src="img/card__mob.png" alt="">
+                  <div class="search__dropdown-content">
+                    <div class="search__dropdown-id">
+                      <p>F12</p>
+                    </div>
+                    <div class="search__dropdown-name">
+                      <a href="#">Духи на разлив Miss Dior Cherie Blooming Bouqet</a>
+                    </div>
+                  </div>
+                  <div class="catalog__card-btn search__dropdown-btn">
+                    <a href="#" class="catalog__serth">
+                      <?xml version="1.0" encoding="iso-8859-1"?>
+                      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                          <g>
+                            <path d="M443.188,442.208L415.956,142.56c-0.768-8.256-7.68-14.56-15.968-14.56h-48V96c0-25.728-9.952-49.888-28.032-67.968
+                          C305.876,9.952,281.716,0,255.988,0c-52.928,0-96,43.072-96,96v32h-48c-8.288,0-15.2,6.304-15.936,14.56L68.82,442.208
+                          c-1.632,17.856,4.384,35.712,16.48,48.96S114.612,512,132.564,512h246.88c17.952,0,35.168-7.584,47.264-20.832
+                          S444.788,460.064,443.188,442.208z M191.988,96c0-35.296,28.704-64,64-64c17.184,0,33.28,6.624,45.344,18.656
+                          c12.064,12.032,18.656,28.16,18.656,45.344v32h-128V96z M403.06,469.6c-6.144,6.688-14.528,10.4-23.648,10.4H132.564
+                          c-9.088,0-17.504-3.712-23.616-10.432c-6.144-6.72-9.056-15.392-8.224-24.48L126.612,160h33.376v48c0,8.832,7.168,16,16,16
+                          c8.832,0,16-7.168,16-16v-48h128v48c0,8.832,7.168,16,16,16c8.832,0,16-7.168,16-16v-48h33.376l25.92,285.12
+                          C412.116,454.176,409.204,462.88,403.06,469.6z" />
+                          </g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="like">
+              <a href="#">
+                <?xml version="1.0" encoding="iso-8859-1"?>
+                <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 477.534 477.534"
+                  style="enable-background:new 0 0 477.534 477.534;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path d="M438.482,58.61c-24.7-26.549-59.311-41.655-95.573-41.711c-36.291,0.042-70.938,15.14-95.676,41.694l-8.431,8.909
+                      l-8.431-8.909C181.284,5.762,98.662,2.728,45.832,51.815c-2.341,2.176-4.602,4.436-6.778,6.778
+                      c-52.072,56.166-52.072,142.968,0,199.134l187.358,197.581c6.482,6.843,17.284,7.136,24.127,0.654
+                      c0.224-0.212,0.442-0.43,0.654-0.654l187.29-197.581C490.551,201.567,490.551,114.77,438.482,58.61z M413.787,234.226h-0.017
+                      L238.802,418.768L63.818,234.226c-39.78-42.916-39.78-109.233,0-152.149c36.125-39.154,97.152-41.609,136.306-5.484
+                      c1.901,1.754,3.73,3.583,5.484,5.484l20.804,21.948c6.856,6.812,17.925,6.812,24.781,0l20.804-21.931
+                      c36.125-39.154,97.152-41.609,136.306-5.484c1.901,1.754,3.73,3.583,5.484,5.484C453.913,125.078,454.207,191.516,413.787,234.226
+                      z" />
+                    </g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                </svg>
+              </a>
+            </div>
+            <div class="cart">
+              <a href="#">
+                <?xml version="1.0" encoding="iso-8859-1"?>
+                <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                  style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path d="M443.188,442.208L415.956,142.56c-0.768-8.256-7.68-14.56-15.968-14.56h-48V96c0-25.728-9.952-49.888-28.032-67.968
+                      C305.876,9.952,281.716,0,255.988,0c-52.928,0-96,43.072-96,96v32h-48c-8.288,0-15.2,6.304-15.936,14.56L68.82,442.208
+                      c-1.632,17.856,4.384,35.712,16.48,48.96S114.612,512,132.564,512h246.88c17.952,0,35.168-7.584,47.264-20.832
+                      S444.788,460.064,443.188,442.208z M191.988,96c0-35.296,28.704-64,64-64c17.184,0,33.28,6.624,45.344,18.656
+                      c12.064,12.032,18.656,28.16,18.656,45.344v32h-128V96z M403.06,469.6c-6.144,6.688-14.528,10.4-23.648,10.4H132.564
+                      c-9.088,0-17.504-3.712-23.616-10.432c-6.144-6.72-9.056-15.392-8.224-24.48L126.612,160h33.376v48c0,8.832,7.168,16,16,16
+                      c8.832,0,16-7.168,16-16v-48h128v48c0,8.832,7.168,16,16,16c8.832,0,16-7.168,16-16v-48h33.376l25.92,285.12
+                      C412.116,454.176,409.204,462.88,403.06,469.6z" />
+                    </g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                </svg>
+              </a>
+              <span>2 555 грн</span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="pages__nav">
+      <div class="container">
+        <div class="pages__navigation">
+          <span class="pages__navigation-left">
+            Главная /
+          </span>
+          <span class="pages__navigation-right">
+            Личный кабинет
+          </span>
+        </div>
+        <p class="pages__title">
+          Личный кабинет
+        </p>
+      </div>
+    </div>
+    <div class="cabinet">
+      <div class="container">
+        <table class="cabinet__inner">
+          <tr>
+            <th colspan="6">
+              <p class="cabinet__title">11 мая 2021</p>
+            </th>
+          </tr>
+          <tr>
+            <td class="cabinet__item">
+              <img src="img/card.png" alt="">
+              <div class="cabinet__card-item">
+                <div>
+                  <div class="catalog__card-topname">
+                    <p>духи на разлив</p>
+                  </div>
+                  <div class="catalog__card-name cabinet__card-name">
+                    <p>CEDAR ESSENCE</p>
+                  </div>
+                </div>
+                <p class="cabinet__artic">Артикул :565</p>
+              </div>
+            </td>
+            <td class="cabinet__cacl-inner">
+              <div class="cabinet__calc-item">
+                <p class="cabinet__price">105.76 грн</p>
+                <div class="cabinet__calc">
+                  <button>-</button>
+                  <p>1</p> <button>+</button>
+                </div>
+              </div>
+              <div class="cabinet__price-mob">
+                <p class="cabinet__price-text__mob">ВСЕГО</p>
+                <p class="cabinet__price">105.76 грн</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="cabinet__item">
+              <img src="img/card.png" alt="">
+              <div class="cabinet__card-item">
+                <div>
+                  <div class="catalog__card-topname">
+                    <p>духи на разлив</p>
+                  </div>
+                  <div class="catalog__card-name cabinet__card-name">
+                    <p>CEDAR ESSENCE</p>
+                  </div>
+                </div>
+                <p class="cabinet__artic">Артикул :565</p>
+              </div>
+            </td>
+            <td class="cabinet__cacl-inner">
+              <div class="cabinet__calc-item">
+                <p class="cabinet__price">105.76 грн</p>
+                <div class="cabinet__calc">
+                  <button>-</button>
+                  <p>1</p> <button>+</button>
+                </div>
+              </div>
+              <div class="cabinet__price-mob">
+                <p class="cabinet__price-text__mob">ВСЕГО</p>
+                <p class="cabinet__price">105.76 грн</p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="cabinet__item">
+              <img src="img/card.png" alt="">
+              <div class="cabinet__card-item">
+                <div>
+                  <div class="catalog__card-topname">
+                    <p>духи на разлив</p>
+                  </div>
+                  <div class="catalog__card-name cabinet__card-name">
+                    <p>CEDAR ESSENCE</p>
+                  </div>
+                </div>
+                <p class="cabinet__artic">Артикул :565</p>
+              </div>
+            </td>
+            <td class="cabinet__cacl-inner">
+              <div class="cabinet__calc-item">
+                <p class="cabinet__price">105.76 грн</p>
+                <div class="cabinet__calc">
+                  <button>-</button>
+                  <p>1</p> <button>+</button>
+                </div>
+              </div>
+              <div class="cabinet__price-mob">
+                <p class="cabinet__price-text__mob">ВСЕГО</p>
+                <p class="cabinet__price">105.76 грн</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <table class="cabinet__inner">
+          <tr>
+            <th colspan="6">
+              <p class="cabinet__title">1 мая 2021</p>
+            </th>
+          </tr>
+          <tr>
+            <td class="cabinet__item">
+              <img src="img/card.png" alt="">
+              <div class="cabinet__card-item">
+                <div>
+                  <div class="catalog__card-topname">
+                    <p>духи на разлив</p>
+                  </div>
+                  <div class="catalog__card-name cabinet__card-name">
+                    <p>CEDAR ESSENCE</p>
+                  </div>
+                </div>
+                <p class="cabinet__artic">Артикул :565</p>
+              </div>
+            </td>
+            <td class="cabinet__cacl-inner">
+              <div class="cabinet__calc-item">
+                <p class="cabinet__price">105.76 грн</p>
+                <div class="cabinet__calc">
+                  <button>-</button>
+                  <p>1</p> <button>+</button>
+                </div>
+              </div>
+              <div class="cabinet__price-mob">
+                <p class="cabinet__price-text__mob">ВСЕГО</p>
+                <p class="cabinet__price">105.76 грн</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Войти</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="#">
+            <input type="text" placeholder="Ваш e-mail">
+            <input type="text" placeholder="Ваш пароль">
+            <div class="modal__lable-checkbox">
+              <input class="modal__lable" type="checkbox" id="color" name="color" value="indigo">
+              <label for="color">Запомнить меня</label>
+              <input type="button" value="Забыли пароль?" class="modal__lable-btn" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-bs-dismiss="modal">Войти</button>
+          <button type="button" class="modal__btn-yellow">зарегестрироваться</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">вход в Личный кабинет</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="#">
+            <input type="text" placeholder="Ваш e-mail">
+            <input type="text" placeholder="Ваш пароль">
+            <div class="modal__lable-checkbox">
+              <input class="modal__lable" type="checkbox" id="color1" name="color1" value="indigo">
+              <label for="color1">Запомнить меня</label>
+              <input type="button" value="Вход" class="reg_modal__lable-btn" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer modal__footer-last">
+          <input type="button" value="Забыли пароль?" class="modal__lable-btn" />
+          <input type="button" value="Регистрация" class="modal__lable-btn" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer__inner">
+        <div class="row footer__contact-none">
+          <div class="col-4">
+            <div class="footer__contact">
+              <div class="footer__contact-header">
+                <p>Контакты</p>
+              </div>
+              <div class="footer__content">
+                <div class="footer__gps">
+                  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="513.597px" height="513.597px"
+                    viewBox="0 0 513.597 513.597" style="enable-background:new 0 0 513.597 513.597;"
+                    xml:space="preserve">
+                    <g>
+                      <path d="M263.278,0.107C158.977-3.408,73.323,80.095,73.323,183.602c0,117.469,112.73,202.72,175.915,325.322
+		c3.208,6.225,12.169,6.233,15.388,0.009c57.16-110.317,154.854-184.291,172.959-290.569
+		C456.331,108.387,374.776,3.866,263.278,0.107z M256.923,279.773c-53.113,0-96.171-43.059-96.171-96.171
+		s43.059-96.171,96.171-96.171c53.113,0,96.172,43.059,96.172,96.171S310.036,279.773,256.923,279.773z" />
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                  </svg>
+                  <p>г.Полтава ул. Европейская, 53</p>
+                </div>
+                <div class="footer__tel">
+                  <img src="img/footer__tel.png" alt="">
+                  <div class="footer__phone-item">
+                    <a href="tel:380668897979">+38 (066) 889-79-79</a>
+                    <a href="tel:380668897979">+38 (066) 889-79-79</a>
+                    <a href="tel:380668897979">+38 (066) 889-79-79(Viber)</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="footer__contact-header footer__contact-none">
+              <p>ДЛЯ БИЗНЕСА</p>
+            </div>
+            <div class="footer__bisnes footer__contact-none">
+              <a href="#">Набор “Успешный” Набор</a>
+              <a href="#">Набор “Привлекательный”</a>
+              <a href="#">Набор “Лидерский”</a>
+              <a href="#">Дисконтная программа</a>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="footer__from">
+              <div class="footer__contact-header">
+                <p>УЗНАВАЙТЕ ПЕРВЫМИ <br> О РАСПРОДАЖАХ И НОВИНКАХ!</p>
+              </div>
+              <form>
+                <input type="text" placeholder="Ваш e-mail">
+              </form>
+              <a class="main__btn footer__btn" href="#">Подписаться</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__inner-mob">
+          <div class="footer__contact">
+            <div class="footer__contact-header">
+              <p>Контакты</p>
+            </div>
+            <div class="footer__content">
+              <div class="footer__gps">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="513.597px" height="513.597px"
+                  viewBox="0 0 513.597 513.597" style="enable-background:new 0 0 513.597 513.597;" xml:space="preserve">
+                  <g>
+                    <path d="M263.278,0.107C158.977-3.408,73.323,80.095,73.323,183.602c0,117.469,112.73,202.72,175.915,325.322
+		c3.208,6.225,12.169,6.233,15.388,0.009c57.16-110.317,154.854-184.291,172.959-290.569
+		C456.331,108.387,374.776,3.866,263.278,0.107z M256.923,279.773c-53.113,0-96.171-43.059-96.171-96.171
+		s43.059-96.171,96.171-96.171c53.113,0,96.172,43.059,96.172,96.171S310.036,279.773,256.923,279.773z" />
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                </svg>
+                <p>г.Полтава ул. Европейская, 53</p>
+              </div>
+              <div class="footer__tel">
+                <img src="img/footer__tel.png" alt="">
+                <div class="footer__phone-item">
+                  <a href="tel:380668897979">+38 (066) 889-79-79</a>
+                  <a href="tel:380668897979">+38 (066) 889-79-79</a>
+                  <a href="tel:380668897979">+38 (066) 889-79-79(Viber)</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="main__btn footer__btn" href="#">Подписаться на новинки</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__menu">
+      <div class="container">
+        <div class="footer__menu-inner">
+          <div class="footer__social">
+            <a href="">
+              <svg height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0" />
+                <path
+                  d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0" />
+                <path
+                  d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0" />
+              </svg></a>
+            <a href="">
+              <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z" />
+              </svg>
+            </a>
+            <a href="">
+              <svg height="512" viewBox="0 0 176 176" width="512" xmlns="http://www.w3.org/2000/svg">
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="_16.telegram" data-name="16.telegram">
+                    <g id="icon">
+                      <path
+                        d="m123.33 62.35-44.63 36.48-2.1 1.72a2.27 2.27 0 0 0 -.84 1.48l-.47 3.88-1.29 10.9a.5.5 0 0 1 -1 .09l-3.63-10.9-3.75-11.15a2.24 2.24 0 0 1 1.08-2.66l46.44-26.62 8.74-5c1.27-.74 2.57.86 1.45 1.78z" />
+                      <path
+                        d="m88 0a88 88 0 1 0 88 88 88 88 0 0 0 -88-88zm54.89 50.94-17.18 75.91c-.81 3.56-5.33 5.17-8.5 3l-25.94-17.6-13.21 12.49a4.54 4.54 0 0 1 -7.32-1.62l-4.77-14-4.77-14-25.57-7a3.32 3.32 0 0 1 -.29-6.41l98.78-35.59 1.82-.65c3.83-1.34 7.79 1.76 6.95 5.47z" />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a href="">
+              <svg height="512" viewBox="0 0 152 152" width="512" xmlns="http://www.w3.org/2000/svg">
+                <g id="Layer_2" data-name="Layer 2">
+                  <g id="Color">
+                    <g id="_12.Viber" data-name="12.Viber">
+                      <path
+                        d="m91.42 68.33a1.35 1.35 0 0 0 1.47-1.18 12.23 12.23 0 0 0 .11-1.48 13.35 13.35 0 0 0 -13.36-13.33 12.23 12.23 0 0 0 -1.48.08 1.33 1.33 0 1 0 .29 2.65 9.39 9.39 0 0 1 1.19-.07 10.69 10.69 0 0 1 10.67 10.67 11.7 11.7 0 0 1 -.07 1.19 1.35 1.35 0 0 0 1.18 1.47z" />
+                      <path
+                        d="m79.64 57.67a1.34 1.34 0 1 0 0 2.67 5.33 5.33 0 0 1 5.36 5.33 1.34 1.34 0 0 0 2.67 0 8 8 0 0 0 -8.03-8z" />
+                      <path
+                        d="m88.71 76.83a3.92 3.92 0 0 0 -6.55 1.4 4 4 0 0 1 -4.67 2.48c-4.2-1.1-9.83-6.65-10.84-11.09a3.82 3.82 0 0 1 2.58-4.62 3.93 3.93 0 0 0 1.55-6.52l-5.84-6a4.21 4.21 0 0 0 -5.69-.06l-4 4c-4.05 4.17.25 15.39 10 25.41s20.92 14.77 25.18 10.6l4-4a4.2 4.2 0 0 0 .06-5.69z" />
+                      <path
+                        d="m76 0a76 76 0 1 0 76 76 76 76 0 0 0 -76-76zm36 76a28 28 0 0 1 -28 28h-14.11l-11.62 11.62a1.34 1.34 0 0 1 -2.27-.94v-13.37a28 28 0 0 1 -16-25.31v-12a28 28 0 0 1 28-28h16a28 28 0 0 1 28 28z" />
+                      <path
+                        d="m79.64 47q-.72 0-1.44.06a1.33 1.33 0 0 0 .2 2.66h1.24a16 16 0 0 1 16 16 15.71 15.71 0 0 1 -.43 3.69 1.34 1.34 0 1 0 2.6.62 18.94 18.94 0 0 0 .5-4.31 18.7 18.7 0 0 0 -18.67-18.72z" />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <nav class="footer__nav">
+            <ul>
+              <li class="footer__item"><a href="#" class="footer__link">Статьи</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">О компании</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+            </ul>
+          </nav>
+          <p>© 2020 Delafi . Все права защищены</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script defer src="js/fontawesome/all.js"></script>
+  <script defer src="js/fontawesome/brands.js"></script>
+  <script defer src="js/fontawesome/fontawesome.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
