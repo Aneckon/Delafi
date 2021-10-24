@@ -2542,8 +2542,133 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+.pages__navigation-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .cabinet__price-text__mob{
   display: none;
   font-size: 14px;
   font-weight: bold;
+}
+
+.pages__navigation-item{
+  display: flex;
+  align-items: center;
+}
+.pages__navigation-icon{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+}
+.pages__navigation-icon:last-child{
+  margin-right: 0;
+}
+.pages__navigation-icon:first-child{
+  margin-left: 0;
+}
+.pages__navigation-icon svg{
+  width: 20px;
+}
+.pages__navigation-active svg path{
+  fill: #e1b466;
+}
+.pages__navigation-active p{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.pages__navigation-block{
+  display: block;
+}
+.pages__navigation-none{
+  display: none;
+}
+.cabinet__profile{
+  margin-bottom: 70px;
+}
+.cabinet__profile-card{
+  position: relative;
+}
+.cabinet__profile-card img{
+  max-width: 425px;
+  width: 100%;
+  border-radius: 20px;
+}
+.cabinet__profile-item{
+  position: absolute;
+  top: 35px;
+  left: 40px;
+}
+.cabinet__profile-item p{
+  font-size: 14px;
+  font-weight: bold;
+}
+.cabinet__profile-client{
+  padding-bottom: 100px;
+}
+.cabinet__profile-number{
+  padding-bottom: 20px;
+}
+.cabinet__profile-number p{
+  font-size: 24px;
+  font-weight: normal;
+}
+.cabinet__contact-name{
+  padding-bottom: 30px;
+}
+.cabinet__contact-name p{
+  font-size: 13px;
+  font-weight: bold;
+}
+.cabinet__contact-tel{
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #333333;
+}
+.cabinet__contact-tel:hover{
+  color: #333333;
+}
+.cabinet__contact-email{
+  padding-bottom: 30px;
+  font-size: 14px;
+  color: #333333;
+}
+.cabinet__contact-email:hover{
+  color: #333333;
+}
+.cabinet__contact-data{
+  padding-bottom: 75px;
+}
+.cabinet__contact-data{
+  font-size: 14px;
+}
+.cabinet__profile-contact{
+  display: flex;
+  flex-direction: column;
+}
+.cabinet__contact-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cabinet__btn{
+  max-width: 350px;
+  width: 100%;
+  margin: 0;
+}
+.cabinet__btn-active{
+  background: #e1b466;
+  border: 2px solid #e1b466;
+  transition: .3s;
+  margin: 0;
+}
+.cabinet__btn-active:hover{
+  color: #e1b466;
 }

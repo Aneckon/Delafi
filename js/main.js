@@ -12,7 +12,6 @@ $(document).ready(function () {
   });
 });
 
-
 $(document).ready(function () {
   $('.catalog__icon-img__left').click(function () {
     $('.catalog__inner').removeClass('catalog__row')
