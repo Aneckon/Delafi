@@ -1458,6 +1458,9 @@ footer {
   height: 15px;
   fill: #fff;
 }
+.catalog__card-hits{
+  z-index: 1;
+}
 .feedback__button:hover svg {
   fill: #a87cd5;
 }
