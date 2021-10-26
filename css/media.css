@@ -799,6 +799,10 @@
   }
 }
 @media (max-width: 768px) {
+  .cabinet__profile-card img{
+    max-width: 100%;
+    width: 100%;
+  }
   .cabinet__profile-card{
     margin-bottom: 20px;
   }
@@ -1666,6 +1670,13 @@
   }
 }
 @media (max-width: 365px) {
+  .cabinet__register-item{
+    display: flex;
+    flex-direction: column;
+  }
+  .cabinet__register-item input{
+    max-width: 100% !important;
+  }
   .contacts__card-inner::before {
     height: 420px;
   }
