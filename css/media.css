@@ -797,8 +797,15 @@
     width: 20px;
     height: 20px;
   }
+  .product__calc-item{
+    max-width: 100px !important;
+  }
 }
 @media (max-width: 768px) {
+  .product__nav .catalog__btn{
+    max-width: 160px !important;
+    font-size: 8px !important;
+  }
   .cabinet__profile-card img{
     max-width: 100%;
     width: 100%;
@@ -1045,6 +1052,12 @@
   }
 }
 @media (max-width: 575px) {
+  .product__nav .catalog__btn{
+    max-width: 100% !important;
+  }
+  .product__table td{
+    font-size: 12px;
+  }
   .pages__navigation-inner{
     align-items: start;
     flex-direction: column;
@@ -1060,6 +1073,9 @@
     width: 100%;
     background: #f4f4f4 !important;
     padding: 25px !important;
+  }
+  .product__calc{
+    max-width: 210px;
   }
   .cabinet__item{
     padding: 25px !important;
@@ -1555,6 +1571,20 @@
   }
 }
 @media (max-width: 376px) {
+  .product__calc{
+    padding-top: 10px;
+    max-width: 90%;
+  }
+  .cabinet__calc{
+    max-width: 120px !important;
+  }
+  .product__calc .catalog__card-btn{
+    max-width: 120px !important;
+  }
+  .product__price{
+    flex-direction: column;
+    align-items: center;
+  }
   .cabinet__profile-item{
     left: 30px;
     top: 20px;
