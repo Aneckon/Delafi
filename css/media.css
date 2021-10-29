@@ -31,6 +31,13 @@
   }
 }
 @media (max-width: 1400px) {
+  .new__item-data{
+    padding: 10px 0;
+  }
+  .new__item-text p{
+    font-size: 12px;
+    line-height: 15px;
+  }
   .contacts__maps-content {
     padding: 40px 30px;
   }
@@ -114,6 +121,9 @@
   }
 }
 @media (max-width: 1200px) {
+  .new__item-content{
+    padding: 10px;
+  }
   .cabinet__btn{
     margin: 5px 0 !important;
   }
@@ -234,6 +244,27 @@
 @media (max-width: 992px) {
   .cabinet__contact-data{
     padding-bottom: 30px;
+  }
+  .news__item{
+    flex-direction: column;
+  }
+  .news__header{
+    flex-direction: column;
+    align-items: start;
+  }
+  .news__list-item{
+    padding: 0;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+  .new__item-title{
+    flex-direction: column;
+  }
+  .new__item-title p{
+    padding-bottom: 5px;
+  }
+  .news__list{
+    flex-wrap: wrap;
   }
   .cabinet__calc-item{
     max-width: 150px;
@@ -799,6 +830,16 @@
   }
   .product__calc-item{
     max-width: 100px !important;
+  }
+  .new__more-title p{
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .new__image{
+    margin-bottom: 20px;
+  }
+  .new__item-content{
+    padding: 10px;
   }
 }
 @media (max-width: 768px) {
