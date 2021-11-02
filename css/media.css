@@ -157,6 +157,9 @@
   }
 }
 @media (max-width: 1200px) {
+  .basket__form-item .catalog__card-btn {
+    margin-left: 0;
+  }
   .box__form-inner input{
     max-width: 260px;
   }
@@ -939,6 +942,22 @@
   }
 }
 @media (max-width: 768px) {
+  .basket__form-select{
+    max-width: 100%;
+  }
+  .basket__form-com{
+    max-width: 100%;
+  }
+  .basket__form-last form .basket__form-com input{
+    margin-bottom: 20px;
+  }
+  .basket__adres{
+    flex-direction: column;
+    align-items: start;
+  }
+  .basket__select{
+    max-width: 100%;
+  }
   .box__form-inner{
     flex-direction: column;
     align-items: center;

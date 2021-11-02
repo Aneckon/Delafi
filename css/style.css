@@ -3624,3 +3624,86 @@ footer {
 .box__biznes-left{
   height: 100%;
 }
+.basket__form-last .right{
+  justify-content: flex-end;
+  text-align: right;
+}
+.basket__form-last{
+  padding: 40px 30px;
+  background: #f4f4f4;
+}
+.basket__form-last .basket__form-price{
+  padding-right: 20px;
+}
+.basket__form-title p{
+  font-size: 14px;
+  font-weight: bold;
+}
+.basket__form-last form input{
+  max-width: 100%;
+  padding: 0 15px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background: #fff;
+}
+.basket__form-item__dos{
+  display: flex;
+  justify-content: space-between;
+}
+.basket__form-select{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 250px;
+  width: 100%;
+}
+.basket__select{
+  background: transparent;
+  max-width: 250px;
+  width: 100%;
+  height: 40px;
+  padding: 0 5px;
+  font-size: 14px;
+  opacity: .8;
+}
+.basket__form-com{
+  max-width: 48%;
+  width: 100%;
+}
+.basket__form-last form .basket__form-com input{
+  max-width: 100%;
+  width: 100%;
+}
+.basket__form-last{
+  margin-bottom: 70px;
+}
+.basket__select{
+  margin-bottom: 10px;
+}
+.basket__dropdown{
+  margin-top: 30px;
+}
+.basket__form-last form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.basket__form-com input{
+  margin-top: 30px;
+}
+.basket__form-item .catalog__card-btn a svg{
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
+  fill: #fff;
+}
+.basket__form-item .catalog__card-btn a {
+  background: #a87cd5;
+  color: #fff;
+  border: 2px solid #a87cd5;
+  font-size: 14px;
+}
