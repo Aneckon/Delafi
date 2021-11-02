@@ -7,6 +7,16 @@
   }
 }
 @media (max-width: 1600px) {
+  .box__biznes-title{
+    padding-bottom: 30px;
+  }
+  .box__biznes-subtitle{
+    padding-bottom: 30px;
+  }
+  .box__biznes-content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
   .menu__nav ul {
     max-width: 830px;
     width: 100%;
@@ -31,6 +41,29 @@
   }
 }
 @media (max-width: 1400px) {
+  .box__biznes-title::after{
+    top: -55px;
+  }
+  .box__biznes-left{
+    padding: 55px 30px;
+  }
+  .box__biznes-title{
+    padding-bottom: 20px;
+  }
+  .box__biznes-subtitle{
+    padding-bottom: 20px;
+  }
+  .box__biznes-content{
+    height: 130px;
+    padding: 10px;
+  }
+  .box__biznes-title p{
+    font-size: 26px;
+  }
+  .box__biznes-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .box__catalog-acardeon{
     padding-bottom: 70px;
   }
@@ -124,6 +157,36 @@
   }
 }
 @media (max-width: 1200px) {
+  .box__form-inner input{
+    max-width: 260px;
+  }
+  .box__price-nab{
+    max-width: 200px;
+  }
+  .box__price-eco{
+    max-width: 200px;
+  }
+  .box__price-eco span{
+    font-size: 14px;
+  }
+  .box__price-eco p{
+    font-size: 12px;
+  }
+  .box__biznes-left{
+    padding: 35px 30px;
+  }
+  .box__biznes-subtitle p{
+    font-size: 10px;
+  }
+  .box__biznes-text p{
+    font-size: 12px;
+  }
+  .box__biznes-text .box__biznes-text__last{
+    font-size: 10px;
+  }
+  .box__biznes-title::after{
+    top: -35px;
+  }
   .new__item-content{
     padding: 10px;
   }
@@ -245,6 +308,25 @@
   }
 }
 @media (max-width: 992px) {
+  .box__price-nabor{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .box__biznes-img{
+    margin-top: 20px;
+  }
+  .box__biznes-left{
+    padding: 70px 55px;
+  }
+  .box__biznes-title::after{
+    top: -70px;
+  }
+  .box__item{
+    padding-bottom: 30px;
+  }
+  .box__img{
+    margin-bottom: 20px;
+  }
   .cabinet__img{
     position: absolute;
     right: 5px;
@@ -857,6 +939,26 @@
   }
 }
 @media (max-width: 768px) {
+  .box__form-inner{
+    flex-direction: column;
+    align-items: center;
+  }
+  .box__form-inner input{
+    max-width: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .box__form{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+  }
+  .box__catalog{
+    margin-bottom: 40px;
+  }
+  .box__biznes-img__content{
+    top: 50px;
+    right: 40px;
+  }
   .cabinet__inner td{
     padding: 10px;
   }
@@ -1125,6 +1227,54 @@
   }
 }
 @media (max-width: 575px) {
+  .box__nabor-subheader{
+    max-width: 100%;
+  }
+  .box__nabor-content span{
+    font-size: 11px;
+  }
+  .box__catalog-name{
+    padding-bottom: 15px;
+  }
+  .accordion-body p{
+    font-size: 12px;
+  }
+  .box__catalog-name h2{
+    font-size: 18px;
+  }
+  .box__price-item p{
+    font-size: 16px;
+  }
+  .box__price-nabor{
+    flex-direction: column;
+    align-items: center;
+  }
+  .box__biznes-title::after{
+    top: -50px;
+  }
+  .box__biznes-title p{
+    font-size: 18px;
+  }
+  .box__biznes-left{
+    padding: 50px 10px;
+  }
+  .box__img-content{
+    left: 45px;
+    top: 45px;
+  }
+  .box__img-title p{
+    font-size: 16px;
+  }
+  .box__img-title h2{
+    font-size: 32px;
+  }
+  .box__img-title{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .box__img-text p{
+    font-size: 12px;
+  }
   .cabinet__img{
     position: absolute;
     right: 10px;
@@ -1408,6 +1558,51 @@
   }
 }
 @media (max-width: 475px) {
+  .box__price-eco{
+    max-width: 100%;
+    width: 100%;
+  }
+  .box__biznes-img__content{
+    top: 60px;
+    right: 5px;
+  }
+  .box__catalog-btn svg{
+    width: 15px;
+    height: 15px;
+  }
+  .accordion-button{
+    font-weight: bold;
+    line-height: 120%;
+  }
+  .box__biznes-img__title{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .box__biznes-img__text{
+    max-width: 170px;
+  }
+  .box__biznes-img__title p{
+    font-size: 36px;
+  }
+  .box__biznes-img__text p{
+    font-size: 12px;
+  }
+  .box__catalog-price{
+    flex-direction: column;
+    align-items: start;
+  }
+  .box__catalog-acardeon{
+    padding-bottom: 20px;
+  }
+  .box__catalog-btn{
+    margin: 5px 0 !important;
+  }
+  .box__catalog-active{
+    margin: 5px 0 !important;
+  }
+  .box__price-eco{
+    margin-top: 20px;
+  }
   .cabinet__profile-client{
     padding-bottom: 70px;
   }
@@ -1652,6 +1847,13 @@
   }
 }
 @media (max-width: 376px) {
+  .box__img-content{
+    left: 25px;
+    top: 25px;
+  }
+  .box__catalog-header h2{
+    font-size: 18px;
+  }
   .product__calc{
     padding-top: 10px;
     max-width: 90%;
