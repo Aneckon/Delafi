@@ -3778,3 +3778,6 @@ footer {
   max-width: 40%;
   margin: 0;
 }
+.catalog__row .catalog__card-item__content::after{
+  display: none;
+}
