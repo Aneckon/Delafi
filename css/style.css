@@ -282,12 +282,25 @@ body {
   font-size: 14px;
 }
 .search__dropdown-name a {
+  text-transform: uppercase;
   color: #fff;
   line-height: 130%;
   max-width: 306px;
   width: 100%;
   font-weight: bold;
   font-size: 14px;
+}
+.box__price-eco svg{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  fill: #fff;
+}
+.box__catalog-active svg{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  fill: #cccccc;
 }
 .search__dropdown-btn {
   margin-left: auto !important;
@@ -2397,12 +2410,50 @@ footer {
   border-bottom: 1px solid #926eb8 !important;
 }
 .reg_modal__lable-btn {
-  max-width: 105px !important;
+  max-width: 205px !important;
+  margin: 0 auto;
   width: 100% !important;
   height: 40px !important;
   background: #a87cd5 !important;
   color: #fff !important;
   margin-bottom: 0 !important;
+}
+.modal-title p{
+  font-size: 14px;
+}
+.modal-subheader p{
+  padding-top: 15px;
+  padding-bottom: 25px;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+}
+.modal-dialog{
+  margin: 50px auto;
+}
+.modal-content{
+  position: relative;
+}
+.modal-eror{
+  font-size: 12px;
+  line-height: 120%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.modal-body .header__phone-item{
+  text-align: center;
+  padding-top: 20px;
+}
+.modal-body .header__phone-item a{
+  padding-bottom: 20px;
+}
+#staticBackdrop3 .modal-body .modal__lable-checkbox{
+  margin-top: 50px;
+}
+.modal-tel{
+  position: absolute;
+  right: -20px;
+  top: -20px;
 }
 .modal__btn-yellow {
   background: #e2b56e !important;
@@ -2930,17 +2981,27 @@ footer {
   right: 0;
   margin: 0 auto;
 }
-.new__more-inner {
-  display: flex;
-  justify-content: space-between;
-}
 .new__more-item {
-  max-width: 360px;
+  max-width: 100%;
+  margin: 20px auto;
+  width: 100%;
   background: #f4f4f4;
+}
+.new__more{
+  margin-top: 50px;
+}
+.pages__navigation-icon svg{
+  transition: .3s;
+}
+.pages__navigation-icon svg:hover{
+  fill: #e1b466;
 }
 .new__item-content {
   padding: 30px;
   background: #f4f4f4;
+}
+.new__item-text{
+  font-size: 14px;
 }
 .new__item-title {
   display: flex;
@@ -3224,7 +3285,7 @@ footer {
   padding-bottom: 0;
 }
 .box__catalog-acardeon{
-  padding-bottom: 100px;
+  padding-bottom: 260px;
 }
 .box__catalog{
   margin-bottom: 70px;
@@ -3706,4 +3767,16 @@ footer {
   color: #fff;
   border: 2px solid #a87cd5;
   font-size: 14px;
+  transition: .3s;
+}
+.basket__form-item .catalog__card-btn a:hover{
+  background: transparent;
+  color: #a87cd5;
+}
+.basket__form-item .catalog__card-btn a:hover svg{
+  fill: #a87cd5;
+}
+.cabinet__contact-btn .main__btn{
+  max-width: 40%;
+  margin: 0;
 }

@@ -15,9 +15,13 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.catalog__icon-img__left').click(function () {
     $('.catalog__inner').removeClass('catalog__row')
+    $('.catalog__icon-img__left').addClass('catalog__icon-active')
+    $('.catalog__icon-img__right').removeClass('catalog__icon-active')
   })
   $('.catalog__icon-img__right').click(function () {
     $('.catalog__inner').addClass('catalog__row')
+    $('.catalog__icon-img__right').addClass('catalog__icon-active')
+    $('.catalog__icon-img__left').removeClass('catalog__icon-active')
   })
 });
 
@@ -56,6 +60,10 @@ $(document).ready(function () {
   $('.a').click(function () {
     $('.none').hide();
     $('.action').show();
+  });
+  $('.l').click(function () {
+    $('.none').hide();
+    $('.lob').show();
   });
 });
 
