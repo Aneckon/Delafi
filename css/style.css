@@ -14,13 +14,11 @@ body {
   padding: 16px 0 28px;
 }
 .header__logo {
-  max-width: 211px;
+  max-width: 221px;
   width: 100%;
-  height: 96px;
 }
 .header__logo img {
   width: 100%;
-  height: 100%;
 }
 .header__phone {
   max-width: 225px;
