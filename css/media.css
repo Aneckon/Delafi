@@ -71,7 +71,7 @@
     padding-bottom: 70px;
   }
   .new__item-data{
-    padding: 10px 0;
+    padding: 15px 0;
   }
   .new__item-text p{
     font-size: 12px;
@@ -144,7 +144,7 @@
     font-size: 26px;
   }
   .menu__search {
-    max-width: 280px;
+    max-width: 340px;
   }
   .menu__link {
     font-size: 12px;
@@ -160,6 +160,20 @@
   }
 }
 @media (max-width: 1200px) {
+  .search__dropdown-name a{
+    font-size: 12px;
+    line-height: 100%;
+  }
+  .news__slide-content p{
+    font-size: 12px;
+    line-height: 100%;
+  }
+  .menu__search {
+    max-width: 300px;
+  }
+  .search{
+    max-width: 160px;
+  }
   .box__catalog-acardeon{
     padding-bottom: 10px;
   }
@@ -324,6 +338,38 @@
   }
 }
 @media (max-width: 992px) {
+  .basket__form-price{
+    text-align: left;
+  }
+  .basket__form-inner{
+    flex-direction: column;
+  }
+  .basket__form .right{
+    max-width: 100%;
+  }
+  .basket__form .left{
+    max-width: 100%;
+  }
+  .basket__form .left{
+    align-items: start;
+  }
+  .left p{
+    text-align: left !important;
+  }
+  .basket__form-item__btn{
+    width: 200px;
+    margin: 5px;
+  }
+  .basket__form-item__btn input{
+    max-width: 100%;
+    width: 100%;
+  }
+  .search{
+    max-width: 200px;
+  }
+  .new__item-title{
+    line-height: 120%;
+  }
   .cabinet__contact-btn .main__btn{
     max-width: 60%;
     margin: 10px 0;
@@ -777,6 +823,12 @@
   .menu__link {
     font-size: 12px;
   }
+  .product__nav{
+    max-width: 100%;
+  }
+  .product__nav .catalog__btn{
+    max-width: 210px;
+  }
   .menu__nav ul {
     display: none;
     padding: 0;
@@ -788,7 +840,7 @@
     overflow-y: auto;
     height: 100vh;
     background: #926eb8;
-    z-index: 100;
+    z-index: 10000;
   }
   .menu__nav ul::before {
     content: "";
@@ -830,7 +882,7 @@
     height: 20px;
     right: 0;
     top: 0;
-    z-index: 110;
+    z-index: 11000;
   }
   .menu__item:hover .menu__link-dropdown {
     top: 40px;
@@ -911,31 +963,6 @@
     padding-bottom: 20px;
     position: relative;
   }
-  .cart {
-    cursor: pointer;
-    max-width: 120px;
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #926db5;
-    padding: 12px;
-    border-radius: 5px;
-  }
-  .cart::after {
-    top: auto;
-    left: 5px;
-    width: 12px;
-    height: 12px;
-    font-size: 10px;
-  }
-  .cart span {
-    display: block;
-    font-size: 12px;
-    color: #fff;
-    font-weight: bold;
-  }
   .menu__mob {
     display: block;
   }
@@ -973,6 +1000,35 @@
   }
 }
 @media (max-width: 768px) {
+  .basket__form .left{
+    flex-direction: column;
+  }
+  .basket__form-kod{
+    max-width: 100%;
+    width: 100%;
+  }
+  .basket__form-kod input{
+    max-width: 200px;
+    margin: 0;
+  }
+  .basket__form-price p{
+    font-size: 20px;
+  }
+  .basket__form-item__btn{
+    margin: 0;
+  }
+  .pages__navigation{
+    margin: 20px auto;
+  }
+  .pages__nav{
+    margin-bottom: 20px;
+  }
+  .pages__title{
+    font-size: 20px;
+  }
+  .pages__navigation span{
+    font-size: 12px;
+  }
   .basket__form-select{
     max-width: 100%;
   }
@@ -1907,6 +1963,15 @@
   }
 }
 @media (max-width: 376px) {
+  .basket__form-kod input{
+    max-width: 140px;
+    margin: 0;
+  }
+  .basket__form-item__btn input{
+    max-width: 140px;
+    margin: 0 !important;
+    margin-left: auto !important;
+  }
   .box__img-content{
     left: 25px;
     top: 25px;

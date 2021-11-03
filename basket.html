@@ -383,12 +383,12 @@
             </li>
           </ul>
           <div class="menu__mob"></div>
-          <div class="menu__search d-none">
+          <div class="menu__search">
             <div class="search__inner">
               <form class="search">
                 <input type="text" placeholder="Духи E12">
               </form>
-              <div class="search__dropdown">
+              <div class="search__dropdown d-none">
                 <div class="search__dropdown-item">
                   <img src="img/card__mob.png" alt="">
                   <div class="search__dropdown-content">
@@ -752,8 +752,10 @@
           <form action="#" class="basket__form-inner">
             <div class="basket__form-item left">
               <p>Скидочный код:</p>
-              <input class="basket__form-input" type="text" placeholder="Код купона">
-              <input class="main__btn basket__form-btn" type="submit" value="Ввести код">
+              <div class="basket__form-kod">
+                <input class="basket__form-input" type="text" placeholder="Код купона">
+                <input class="main__btn basket__form-btn" type="submit" value="Ввести код">
+              </div>
             </div>
             <div class="basket__form-item right">
               <div class="basket__form-price">
