@@ -17,6 +17,9 @@ body {
   max-width: 200px;
   width: 100%;
 }
+.error__logo{
+  margin: 0 auto;
+}
 .header__logo img {
   width: 100%;
 }
