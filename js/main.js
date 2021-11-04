@@ -42,6 +42,12 @@ $(document).ready(function () {
   });
 });
 $(document).ready(function () {
+  $('.news__link').click(function () {
+    $('.news__link').removeClass('news__list-active');
+    $(this).addClass('news__list-active');
+  });
+});
+$(document).ready(function () {
   $('.dropdown__span').click(function () {
     $('.menu__link-dropdown').hide();
     $('.menu__link-dropdown').hide();
