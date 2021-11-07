@@ -129,7 +129,9 @@
             <a href="tel:380668897979">+38 (066) 889-79-79</a>
             <a href="tel:380668897979">+38 (066) 889-79-79</a>
             <a href="tel:380668897979">+38 (066) 889-79-79(Viber)</a>
-            <a href="#" class="obrat">Заказать обратный звонок</a>
+            <button class="obrat" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+              Заказать обратный звонок
+            </button>
           </div>
         </div>
         <div class="header__email">
@@ -255,56 +257,329 @@
           <ul class="menu__list">
             <li class="menu__item active open__content-top">
               <a class="menu__link" href="#">ПАРФЮМЕРИЯ</a>
-              <div class="menu__link-dropdown">
-                <span class="dropdown__span">ПАРФЮМЕРИЯ</span>
+              <div class="menu__link-dropdown dropdown__top">
                 <div class="menu__dropdown-left">
-                  <img src="img/logo__menu2.png" alt="">
                   <div class="menu__dropdown-content">
-                    <div class="menu__dropdown-item">
+                    <div class="menu__dropdown-item item__one">
+                      <img src="img/arrow__left.png" alt="">
                       <div class="menu__dropdown-header">
-                        <p>Для женщин</p>
+                        <p>Парфюмерия</p>
                       </div>
-                      <div class="menu__dropdown-info">
-                        <a href="#">Духи</a>
-                        <a href="#">Туалетная вода</a>
+                      <div class="menu__dropdown-right one">
+                        <span class="dropdown__span">ПАРФЮМЕРИЯ</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="menu__dropdown-item">
+                    <div class="menu__dropdown-item item__two">
+                      <img src="img/arrow__left.png" alt="">
                       <div class="menu__dropdown-header">
-                        <p>Для мужчин</p>
+                        <p>АРоматы для дома</p>
                       </div>
-                      <div class="menu__dropdown-info">
-                        <a href="#">Духи</a>
-                        <a href="#">Туалетная вода</a>
+                      <div class="menu__dropdown-right two">
+                        <span class="dropdown__span">ароматы для дома</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item item__tree">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>Ароматы для авто</p>
+                      </div>
+                      <div class="menu__dropdown-right tree">
+                        <span class="dropdown__span">Ароматы для авто</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item item__for">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>Ароматы для тела</p>
+                      </div>
+                      <div class="menu__dropdown-right for">
+                        <span class="dropdown__span">Ароматы для тела</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item item__fav">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>АНТИСЕПТИКИ</p>
+                      </div>
+                      <div class="menu__dropdown-right fav">
+                        <span class="dropdown__span">АНТИСЕПТИКИ</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item item__six">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>ПАРФЮМЕРНЫЕ ОТДУШКИ</p>
+                      </div>
+                      <div class="menu__dropdown-right six">
+                        <span class="dropdown__span">АНТИСЕПТИКИ</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item item__seven">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>ПАРФЮМЕРНЫЕ композиции</p>
+                      </div>
+                      <div class="menu__dropdown-right seven">
+                        <span class="dropdown__span">АНТИСЕПТИКИ</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item item__nain">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>Тестеры</p>
+                      </div>
+                      <div class="menu__dropdown-right nain">
+                        <span class="dropdown__span">АНТИСЕПТИКИ</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="menu__dropdown-right">
-                  <img src="img/logo__menu.png" alt="">
-                  <div class="menu__dropdown-content">
-                    <div class="menu__dropdown-item">
+                  <div class="menu__dropdown-content__last">
+                    <div class="menu__dropdown-item item__sublast">
+                      <img src="img/arrow__left.png" alt="">
                       <div class="menu__dropdown-header">
-                        <p>Для женщин</p>
+                        <p>JOLI</p>
                       </div>
-                      <div class="menu__dropdown-info">
-                        <a href="#">Духи</a>
-                        <a href="#">Туалетная вода</a>
-                        <a href="#">Антисептики</a>
-                        <a href="#">Подарочная серия</a>
-                        <a href="#">Духи без спирт</a>
+                      <div class="menu__dropdown-right sublast">
+                        <span class="dropdown__span">JOLI</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="menu__dropdown-item">
+                    <div class="menu__dropdown-item item__last">
+                      <img src="img/arrow__left.png" alt="">
                       <div class="menu__dropdown-header">
-                        <p>Для мужчин</p>
+                        <p>DELAFI</p>
                       </div>
-                      <div class="menu__dropdown-info">
-                        <a href="#">Духи</a>
-                        <a href="#">Туалетная вода</a>
-                        <a href="#">Антисептики</a>
-                        <a href="#">Подарочная серия</a>
-                        <a href="#">Духи без спирт</a>
+                      <div class="menu__dropdown-right last__last">
+                        <span class="dropdown__span">DELAFI</span>
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -314,55 +589,318 @@
             <li class="menu__item active open__content-top">
               <a class="menu__link" href="#">ФЛАКОНЫ</a>
               <div class="menu__link-dropdown">
-                <span class="dropdown__span">ФЛАКОНЫ</span>
-                <div class="menu__dropdown-left">
-                  <img src="img/logo__menu2.png" alt="">
+                <div class="menu__dropdown-left last">
                   <div class="menu__dropdown-content">
                     <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
                       <div class="menu__dropdown-header">
-                        <p>Для женщин</p>
+                        <p>Парфюмерия</p>
                       </div>
-                      <div class="menu__dropdown-info">
-                        <a href="#">Духи</a>
-                        <a href="#">Туалетная вода</a>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
                       <div class="menu__dropdown-header">
-                        <p>Для мужчин</p>
+                        <p>АРоматы для дома</p>
                       </div>
-                      <div class="menu__dropdown-info">
-                        <a href="#">Духи</a>
-                        <a href="#">Туалетная вода</a>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>Ароматы для авто</p>
+                      </div>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>Ароматы для тела</p>
+                      </div>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>АНТИСЕПТИКИ</p>
+                      </div>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>ПАРФЮМЕРНЫЕ ОТДУШКИ</p>
+                      </div>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>ПАРФЮМЕРНЫЕ композиции</p>
+                      </div>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
+                      <div class="menu__dropdown-header">
+                        <p>Тестеры</p>
+                      </div>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="menu__dropdown-right">
-                  <img src="img/logo__menu.png" alt="">
-                  <div class="menu__dropdown-content">
+                  <div class="menu__dropdown-content__last">
                     <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
                       <div class="menu__dropdown-header">
-                        <p>Для женщин</p>
+                        <p>JOLI</p>
                       </div>
-                      <div class="menu__dropdown-info">
-                        <a href="#">Духи</a>
-                        <a href="#">Туалетная вода</a>
-                        <a href="#">Антисептики</a>
-                        <a href="#">Подарочная серия</a>
-                        <a href="#">Духи без спирт</a>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div class="menu__dropdown-item">
+                      <img src="img/arrow__left.png" alt="">
                       <div class="menu__dropdown-header">
-                        <p>Для мужчин</p>
+                        <p>DELAFI</p>
                       </div>
-                      <div class="menu__dropdown-info">
-                        <a href="#">Духи</a>
-                        <a href="#">Туалетная вода</a>
-                        <a href="#">Антисептики</a>
-                        <a href="#">Подарочная серия</a>
-                        <a href="#">Духи без спирт</a>
+                      <div class="menu__dropdown-right">
+                        <div class="menu__right-content">
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 125 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Наливная парфюмерия 100 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Упаковка 30 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Пробник 3 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Парфюмерное масло 50 мл</p>
+                          </div>
+                          <div class="menu__dropdown-info">
+                            <p>Безалкогольные духи 125 мл</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -2801,6 +3339,33 @@
       </div>
     </div>
   </div>
+  <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">РЕГИСТРАЦИЯ НОВОГО КЛИЕНТА</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-title">
+            <p>Оставьте свой номер телефона</p>
+          </div>
+          <div class="modal-subheader">
+            <p>И мы свяжимся с вами в кратчайшие сроки</p>
+          </div>
+          <form action="#">
+            <input type="text" placeholder="Ваш имя">
+            <input type="text" placeholder="Телефон">
+            <textarea type="text" placeholder="Комментарий"></textarea>
+            <div class="modal__lable-checkbox">
+              <input type="button" value="Жду звонок!" class="reg_modal__lable-btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -2815,7 +3380,7 @@
             <a href="tel:380668897979">+38 (066) 889-79-79(Viber)</a>
           </div>
           <div class="modal__lable-checkbox">
-            <input type="button" value="заказать звонок" class="reg_modal__lable-btn" />
+            <input type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop4 value="заказать звонок" class="reg_modal__lable-btn" />
           </div>
         </div>
       </div>

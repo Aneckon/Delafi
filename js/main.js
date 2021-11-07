@@ -1,8 +1,43 @@
 $(document).ready(function () {
   $('.menu__mob').click(function () {
     $('.menu__list').toggleClass('open__menu');
+    $('.dropdown__top').toggleClass('d-block');
+    $('.menu__link').toggleClass('d-none');
     $('.menu__mob').toggleClass('remove__menu');
     $('body').toggleClass('fixed');
+  });
+  $('.item__one').click(function () {
+    $('.one').toggleClass('d-block');
+  });
+  $('.item__two').click(function () {
+    $('.two').toggleClass('d-block');
+  });
+  $('.item__tree').click(function () {
+    $('.tree').toggleClass('d-block');
+  });
+  $('.item__for').click(function () {
+    $('.for').toggleClass('d-block');
+  });
+  $('.item__fav').click(function () {
+    $('.fav').toggleClass('d-block');
+  });
+  $('.item__six').click(function () {
+    $('.six').toggleClass('d-block');
+  });
+  $('.item__seven').click(function () {
+    $('.seven').toggleClass('d-block');
+  });
+  $('.item__nain').click(function () {
+    $('.nain').toggleClass('d-block');
+  });
+  $('.item__sublast').click(function () {
+    $('.sublast').toggleClass('d-block');
+  });
+  $('.item__last').click(function () {
+    $('.last__last').toggleClass('d-block');
+  });
+  $('.dropdown__span').click(function () {
+    $('.menu__dropdown-right').hide();
   });
 });
 $(document).ready(function () {
@@ -24,12 +59,6 @@ $(document).ready(function () {
     $('.catalog__icon-img__left').removeClass('catalog__icon-active')
   })
 });
-
-$(document).ready(function () {
-  $('.menu__link').click(function () {
-    $(this).next('.menu__link-dropdown').toggle();
-  });
-});
 $(document).ready(function () {
   $('.catalog__mob-title').click(function () {
     $(this).next('.catalog__dropdown').toggle();
@@ -45,12 +74,6 @@ $(document).ready(function () {
   $('.news__link').click(function () {
     $('.news__link').removeClass('news__list-active');
     $(this).addClass('news__list-active');
-  });
-});
-$(document).ready(function () {
-  $('.dropdown__span').click(function () {
-    $('.menu__link-dropdown').hide();
-    $('.menu__link-dropdown').hide();
   });
 });
 
