@@ -44,6 +44,9 @@
   }
 }
 @media (max-width: 1400px) {
+  .error__404-img {
+    max-width: 580px;
+  }
   .box__biznes-title::after{
     top: -55px;
   }
@@ -131,7 +134,7 @@
     padding-bottom: 25px;
   }
   .main__btn {
-    margin: 10px auto;
+    margin: 20px auto;
   }
   .news__swiper {
     padding: 70px;

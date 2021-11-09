@@ -193,7 +193,7 @@ body {
   justify-content: space-between;
   position: absolute;
   background: #926eb8;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 0px 10px;
   z-index: 12;
 }
 .menu__dropdown-header {
@@ -841,6 +841,7 @@ body {
   display: flex;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 14px;
   align-items: center;
   justify-content: center;
   background: #a87cd5;
@@ -1470,7 +1471,7 @@ footer {
 .error__404-img {
   margin: 0 auto;
   text-align: center;
-  max-width: 480px;
+  max-width: 680px;
   width: 100%;
   height: 100%;
 }
@@ -2290,10 +2291,17 @@ footer {
 .catalog__sidebar-mob__title p {
   font-size: 18pt;
 }
+.catalog__row .catalog__card-item{
+  padding-left: 10px !important;
+  border: 2px solid #f4f4f4;
+}
+.page-link:focus{
+  color: #a87cd5;
+}
 .catalog__mob-title {
   position: relative;
   width: 100%;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .catalog__item {
   width: 31%;
