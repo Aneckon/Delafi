@@ -1009,11 +1009,11 @@
   }
 }
 @media (max-width: 768px) {
-  .aboute__bg-arow{
-    top: 100%;
-  }
   .aboute__bg-inner::before{
     bottom: -35px;
+  }
+  .content__top{
+    padding-top: 1000px;
   }
   .basket__form .left{
     flex-direction: column;
@@ -1675,11 +1675,11 @@
   }
 }
 @media (max-width: 535px) {
-  .aboute__bg-arow{
-    top: 92%;
-  }
   .aboute__bg-inner::before{
     bottom: -5px;
+  }
+  .content__top{
+    padding-top: 1050px;
   }
 }
 @media (max-width: 475px) {
