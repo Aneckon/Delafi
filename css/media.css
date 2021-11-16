@@ -44,6 +44,9 @@
   }
 }
 @media (max-width: 1400px) {
+  .aboute__bg-dropdown{
+    top: 91.5%;
+  }
   .error__404-img {
     max-width: 580px;
   }
