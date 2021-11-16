@@ -196,6 +196,39 @@ body {
   border-radius: 0 0 0px 10px;
   z-index: 12;
 }
+.aboute__bg-arow{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  background: url("../img/arow__top.png") no-repeat center;
+  background-color: #e1b466;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 11;
+}
+.aboute__bg-dropdown{
+  display: none;
+  position: absolute;
+  top: 92.2%;
+  background: #f4f4f4;
+  padding: 50px 30px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+.aboute__bg-dropdown p{
+  padding-bottom: 20px;
+  line-height: 150%;
+  font-size: 14pt;
+}
+.content__top{
+  padding-top: 450px;
+}
 .menu__dropdown-header {
   width: 100%;
 }

@@ -1009,6 +1009,12 @@
   }
 }
 @media (max-width: 768px) {
+  .aboute__bg-arow{
+    top: 100%;
+  }
+  .aboute__bg-inner::before{
+    bottom: -35px;
+  }
   .basket__form .left{
     flex-direction: column;
   }
@@ -1668,18 +1674,44 @@
     display: block;
   }
 }
+@media (max-width: 535px) {
+  .aboute__bg-arow{
+    top: 92%;
+  }
+  .aboute__bg-inner::before{
+    bottom: -5px;
+  }
+}
 @media (max-width: 475px) {
+  .aboute__bg-inner::before{
+    bottom: -55px;
+  }
   .aboute__bg-inner::after {
     content: "";
     position: absolute;
     max-width: 1460px;
     width: 100%;
-    height: 450px;
+    height: 750px;
     background: url("../img/bg__aboute-mob__560.png") no-repeat center;
     background-size: cover;
     right: 0;
     top: 0;
     z-index: -1;
+  }
+  .aboute__bg-inner{
+    min-height: 750px;
+  }
+  .content__top{
+    padding-top: 750px;
+  }
+  .aboute__bg-dropdown p{
+    font-size: 14px;
+  }
+  .aboute__bg-dropdown{
+    top: 100%;
+  }
+  .aboute__bg-arow{
+    top: 97%;
   }
   .aboute__bg{
     margin-bottom: 120px;
@@ -1988,6 +2020,12 @@
   }
 }
 @media (max-width: 376px) {
+  .aboute__bg-inner::before{
+    bottom: -135px;
+  }
+  .aboute__bg {
+    margin-bottom: 50px;
+  }
   .menu__dropdown-info p{
     font-size: 12px;
   }
@@ -2178,19 +2216,29 @@
   }
 }
 @media (max-width: 345px) {
+  .aboute__bg-inner::before{
+    bottom: -155px;
+  }
   .aboute__bg-inner::after {
     content: "";
     position: absolute;
     max-width: 1460px;
     width: 100%;
-    height: 420px;
+    height: 480px;
     background: url("../img/bg__aboute-mob.png") no-repeat center;
     right: 0;
     top: 0;
     z-index: -1;
+    background-size: 100%;
+  }
+  .adaptiv-none{
+    display: none;
   }
   .modal-dialog{
     max-width: 300px;
+  }
+  .aboute__bg-inner{
+    min-height: 480px;
   }
   .modal-body .modal__lable-checkbox{
     margin-top: 20px;
@@ -2214,10 +2262,17 @@
     font-size: 18px;
   }
   .aboute__bg {
-    margin-bottom: 160px;
+    margin-bottom: 60px;
   }
   .aboute__bg-content p {
     line-height: 120%;
+  }
+  .aboute__bg-title{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .content__top{
+    padding-top: 900px;
   }
   .feedback__button svg {
     top: 14px;

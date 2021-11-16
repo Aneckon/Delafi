@@ -46,7 +46,12 @@ $(document).ready(function () {
     $('.catalog__sidebar-menu').toggleClass('catalog__remove');
   });
 });
-
+$(document).ready(function () {
+  $('.aboute__bg-arow').click(function () {
+    $('.aboute__bg-dropdown').toggleClass('d-block');
+    $('.aboute__content').toggleClass('content__top');
+  });
+});
 $(document).ready(function () {
   $('.catalog__icon-img__left').click(function () {
     $('.catalog__inner').removeClass('catalog__row')
